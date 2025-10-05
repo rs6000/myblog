@@ -1,0 +1,27 @@
+{
+  "id": "Docusaurus/goodlink",
+  "title": "Docusaurus 站台",
+  "description": "DOCSAID",
+  "source": "@site/docs/Docusaurus/goodlink.md",
+  "sourceDirName": "Docusaurus",
+  "slug": "/Docusaurus/goodlink",
+  "permalink": "/myblog/docs/Docusaurus/goodlink",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docusaurus/goodlink.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9998,
+  "frontMatter": {
+    "sidebar_position": 9998
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 問題集",
+    "permalink": "/myblog/docs/Docusaurus/docusaurus-qa"
+  },
+  "next": {
+    "title": "2021 iThome鐵人賽",
+    "permalink": "/myblog/docs/category/2021-ithome鐵人賽"
+  }
+}

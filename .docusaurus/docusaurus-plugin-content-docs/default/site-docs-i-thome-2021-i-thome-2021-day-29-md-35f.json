@@ -1,0 +1,27 @@
+{
+  "id": "iThome_2021/iThome_2021_Day29",
+  "title": "文章標題 DAY 29",
+  "description": "圖片缺失",
+  "source": "@site/docs/iThome_2021/iThome_2021_Day29.md",
+  "sourceDirName": "iThome_2021",
+  "slug": "/iThome_2021/iThome_2021_Day29",
+  "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day29",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/iThome_2021/iThome_2021_Day29.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "文章標題 DAY 28",
+    "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day28"
+  },
+  "next": {
+    "title": "文章標題 DAY 30",
+    "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day30"
+  }
+}

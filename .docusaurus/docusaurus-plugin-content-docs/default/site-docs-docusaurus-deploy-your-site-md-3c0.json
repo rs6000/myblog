@@ -1,0 +1,27 @@
+{
+  "id": "Docusaurus/Deploy-your-site",
+  "title": "Deploy your site",
+  "description": "---",
+  "source": "@site/docs/Docusaurus/Deploy-your-site.md",
+  "sourceDirName": "Docusaurus",
+  "slug": "/Docusaurus/Deploy-your-site",
+  "permalink": "/myblog/docs/Docusaurus/Deploy-your-site",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docusaurus/Deploy-your-site.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Docusaurus 筆記",
+    "permalink": "/myblog/docs/category/docusaurus-筆記"
+  },
+  "next": {
+    "title": "Docusaurus 問題集",
+    "permalink": "/myblog/docs/Docusaurus/docusaurus-qa"
+  }
+}

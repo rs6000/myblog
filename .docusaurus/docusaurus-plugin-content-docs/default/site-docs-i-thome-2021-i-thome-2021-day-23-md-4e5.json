@@ -1,0 +1,27 @@
+{
+  "id": "iThome_2021/iThome_2021_Day23",
+  "title": "文章標題 DAY 23",
+  "description": "符號錯誤 119行",
+  "source": "@site/docs/iThome_2021/iThome_2021_Day23.md",
+  "sourceDirName": "iThome_2021",
+  "slug": "/iThome_2021/iThome_2021_Day23",
+  "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day23",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/iThome_2021/iThome_2021_Day23.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "文章標題 DAY 22",
+    "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day22"
+  },
+  "next": {
+    "title": "文章標題 DAY 24",
+    "permalink": "/myblog/docs/iThome_2021/iThome_2021_Day24"
+  }
+}
