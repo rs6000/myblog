@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/myblog/__docusaurus/debug',
-    component: ComponentCreator('/myblog/__docusaurus/debug', 'ea2'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/config',
-    component: ComponentCreator('/myblog/__docusaurus/debug/config', 'c44'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/content',
-    component: ComponentCreator('/myblog/__docusaurus/debug/content', 'd28'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/globalData',
-    component: ComponentCreator('/myblog/__docusaurus/debug/globalData', 'f1d'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/metadata',
-    component: ComponentCreator('/myblog/__docusaurus/debug/metadata', '0dc'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/registry',
-    component: ComponentCreator('/myblog/__docusaurus/debug/registry', 'a1e'),
-    exact: true
-  },
-  {
-    path: '/myblog/__docusaurus/debug/routes',
-    component: ComponentCreator('/myblog/__docusaurus/debug/routes', '041'),
-    exact: true
-  },
-  {
     path: '/myblog/blog',
     component: ComponentCreator('/myblog/blog', '0a0'),
     exact: true
@@ -114,19 +79,25 @@ export default [
   },
   {
     path: '/myblog/docs',
-    component: ComponentCreator('/myblog/docs', 'f4d'),
+    component: ComponentCreator('/myblog/docs', '090'),
     routes: [
       {
         path: '/myblog/docs',
-        component: ComponentCreator('/myblog/docs', 'cf4'),
+        component: ComponentCreator('/myblog/docs', '323'),
         routes: [
           {
             path: '/myblog/docs',
-            component: ComponentCreator('/myblog/docs', '39b'),
+            component: ComponentCreator('/myblog/docs', '37f'),
             routes: [
               {
                 path: '/myblog/docs/category/2021-ithome鐵人賽',
                 component: ComponentCreator('/myblog/docs/category/2021-ithome鐵人賽', '223'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/myblog/docs/category/我的博客',
+                component: ComponentCreator('/myblog/docs/category/我的博客', '1d5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -151,12 +122,6 @@ export default [
               {
                 path: '/myblog/docs/category/tutorial---extras',
                 component: ComponentCreator('/myblog/docs/category/tutorial---extras', '30d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/myblog/docs/category/tutorial---extras-1',
-                component: ComponentCreator('/myblog/docs/category/tutorial---extras-1', 'e67'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -377,6 +342,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/myblog/docs/mylab/translate-your-site',
+                component: ComponentCreator('/myblog/docs/mylab/translate-your-site', 'd9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/myblog/docs/tutorial-basics/congratulations',
                 component: ComponentCreator('/myblog/docs/tutorial-basics/congratulations', 'a22'),
                 exact: true,
@@ -409,18 +380,6 @@ export default [
               {
                 path: '/myblog/docs/tutorial-basics/markdown-features',
                 component: ComponentCreator('/myblog/docs/tutorial-basics/markdown-features', 'edd'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/myblog/docs/tutorial-extras copy/manage-docs-versions',
-                component: ComponentCreator('/myblog/docs/tutorial-extras copy/manage-docs-versions', 'd17'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/myblog/docs/tutorial-extras copy/translate-your-site',
-                component: ComponentCreator('/myblog/docs/tutorial-extras copy/translate-your-site', '7ee'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

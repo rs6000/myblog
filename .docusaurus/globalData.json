@@ -191,6 +191,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "mylab/translate-your-site",
+              "path": "/myblog/docs/mylab/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/myblog/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -218,16 +223,6 @@
             {
               "id": "tutorial-basics/markdown-features",
               "path": "/myblog/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras copy/manage-docs-versions",
-              "path": "/myblog/docs/tutorial-extras copy/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras copy/translate-your-site",
-              "path": "/myblog/docs/tutorial-extras copy/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -261,13 +256,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/myblog/docs/category/tutorial---extras",
+              "id": "/category/我的博客",
+              "path": "/myblog/docs/category/我的博客",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras-1",
-              "path": "/myblog/docs/category/tutorial---extras-1",
+              "id": "/category/tutorial---extras",
+              "path": "/myblog/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],
