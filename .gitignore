@@ -27,7 +27,9 @@ build/
 out/
 .next/
 .cache/
-.docusaurus/
+.docusaurus/*
+
+
 
 # 日誌
 logs/
