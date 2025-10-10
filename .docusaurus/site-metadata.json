@@ -36,6 +36,9 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.9.1"
+    },
+    "tailwind-plugin": {
+      "type": "project"
     }
   }
 }

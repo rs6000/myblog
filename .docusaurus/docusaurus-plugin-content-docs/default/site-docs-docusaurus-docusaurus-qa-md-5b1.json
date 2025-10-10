@@ -1,7 +1,7 @@
 {
   "id": "Docusaurus/docusaurus-qa",
   "title": "Docusaurus 問題集",
-  "description": "在轉移文章到 docusaurus 過程中，發現內文如果特殊符號",
+  "description": "問題一",
   "source": "@site/docs/Docusaurus/docusaurus-qa.md",
   "sourceDirName": "Docusaurus",
   "slug": "/Docusaurus/docusaurus-qa",
