@@ -75,6 +75,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "把程式推送到Bitbucket",
+    "permalink": "/myblog/blog/Using-Bitbucket"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/myblog/blog/mdx-blog-post"
