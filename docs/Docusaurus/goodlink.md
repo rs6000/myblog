@@ -14,6 +14,8 @@ sidebar_position: 9998
 
 [WeiYun0912](https://wei-docusaurus-vercel.vercel.app/)
 
-other
+[你好! 我是愧怍](https://kuizuo.cn/)
 
-[朱婉妤的知識庫](https://notes.zhuwanyu.com/welcome)
+---
+
+[在首頁加上最新文章列表](https://ouch1978.github.io/docs/docusaurus/customization/add-new-post-list-into-home-page)
