@@ -1,0 +1,16 @@
+[
+  {
+    "title": "第一篇文章",
+    "description": "這是文章描述",
+    "permalink": "/blog/first-post",
+    "date": "2025-10-12",
+    "image": "/img/sample.jpg"
+  },
+  {
+    "title": "第二篇文章",
+    "description": "這是文章描述",
+    "permalink": "/blog/second-post",
+    "date": "2025-10-11",
+    "image": "/img/sample2.jpg"
+  }
+]
