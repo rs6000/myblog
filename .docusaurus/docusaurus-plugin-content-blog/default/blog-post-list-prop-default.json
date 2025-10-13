@@ -2,28 +2,34 @@
   "title": "Recent posts",
   "items": [
     {
-      "title": "Welcome",
-      "permalink": "/myblog/blog/welcome",
+      "title": "2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)",
+      "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
       "unlisted": false,
-      "date": "2021-08-26T00:00:00.000Z"
+      "date": "2025-10-12T10:00:00.000Z"
     },
     {
-      "title": "MDX Blog Post",
-      "permalink": "/myblog/blog/mdx-blog-post",
+      "title": "把程式推送到Bitbucket",
+      "permalink": "/myblog/blog/Using-Bitbucket",
       "unlisted": false,
-      "date": "2021-08-01T00:00:00.000Z"
+      "date": "2025-10-10T10:00:00.000Z"
     },
     {
-      "title": "Long Blog Post",
-      "permalink": "/myblog/blog/long-blog-post",
+      "title": "使用Nginx新增一個子網域(Subdomain)",
+      "permalink": "/myblog/blog/Add-a-new-subdomain-using-Nginx",
       "unlisted": false,
-      "date": "2019-05-29T00:00:00.000Z"
+      "date": "2025-10-10T10:00:00.000Z"
     },
     {
-      "title": "First Blog Post",
-      "permalink": "/myblog/blog/first-blog-post",
+      "title": "在主機端直接下指令更新WordPress",
+      "permalink": "/myblog/blog/Manual-Update-WordPress",
       "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
+      "date": "2025-10-09T10:00:00.000Z"
+    },
+    {
+      "title": "使用 Vite 建立 React 專案並使用 TailwindCSS",
+      "permalink": "/myblog/blog/Create-TaildwindCss-Project-With-Vite",
+      "unlisted": false,
+      "date": "2025-09-18T10:00:00.000Z"
     }
   ]
 }

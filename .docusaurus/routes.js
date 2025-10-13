@@ -39,7 +39,22 @@ export default [
   },
   {
     path: '/myblog/blog',
-    component: ComponentCreator('/myblog/blog', '0a0'),
+    component: ComponentCreator('/myblog/blog', '346'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/2025-Ubuntu-Server-Ops',
+    component: ComponentCreator('/myblog/blog/2025-Ubuntu-Server-Ops', 'f3d'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/2025-Ubuntu-Server-Upgrade',
+    component: ComponentCreator('/myblog/blog/2025-Ubuntu-Server-Upgrade', '18d'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Add-a-new-subdomain-using-Nginx',
+    component: ComponentCreator('/myblog/blog/Add-a-new-subdomain-using-Nginx', '025'),
     exact: true
   },
   {
@@ -54,12 +69,27 @@ export default [
   },
   {
     path: '/myblog/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles', 'a81'),
+    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles', 'f77'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/authors/all-sebastien-lorber-articles/authors/2',
+    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles/authors/2', '20c'),
     exact: true
   },
   {
     path: '/myblog/blog/authors/yangshun',
-    component: ComponentCreator('/myblog/blog/authors/yangshun', 'd12'),
+    component: ComponentCreator('/myblog/blog/authors/yangshun', 'c9e'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/authors/yangshun/authors/2',
+    component: ComponentCreator('/myblog/blog/authors/yangshun/authors/2', '478'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Create-TaildwindCss-Project-With-Vite',
+    component: ComponentCreator('/myblog/blog/Create-TaildwindCss-Project-With-Vite', '72e'),
     exact: true
   },
   {
@@ -68,13 +98,33 @@ export default [
     exact: true
   },
   {
+    path: '/myblog/blog/Linode-changed-server-us-to-jp',
+    component: ComponentCreator('/myblog/blog/Linode-changed-server-us-to-jp', 'b28'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/long-blog-post',
     component: ComponentCreator('/myblog/blog/long-blog-post', '36a'),
     exact: true
   },
   {
+    path: '/myblog/blog/Manual-Update-WordPress',
+    component: ComponentCreator('/myblog/blog/Manual-Update-WordPress', '92c'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/mdx-blog-post',
     component: ComponentCreator('/myblog/blog/mdx-blog-post', 'd1e'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/page/2',
+    component: ComponentCreator('/myblog/blog/page/2', 'b54'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Setting-up-a-React-Native-development-environment',
+    component: ComponentCreator('/myblog/blog/Setting-up-a-React-Native-development-environment', '50a'),
     exact: true
   },
   {
@@ -84,22 +134,52 @@ export default [
   },
   {
     path: '/myblog/blog/tags/docusaurus',
-    component: ComponentCreator('/myblog/blog/tags/docusaurus', '8b5'),
+    component: ComponentCreator('/myblog/blog/tags/docusaurus', 'fe6'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/docusaurus/page/2',
+    component: ComponentCreator('/myblog/blog/tags/docusaurus/page/2', 'f57'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/facebook',
-    component: ComponentCreator('/myblog/blog/tags/facebook', 'ce7'),
+    component: ComponentCreator('/myblog/blog/tags/facebook', 'd7e'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/facebook/page/2',
+    component: ComponentCreator('/myblog/blog/tags/facebook/page/2', '148'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/hello',
-    component: ComponentCreator('/myblog/blog/tags/hello', '8a9'),
+    component: ComponentCreator('/myblog/blog/tags/hello', '974'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/hello/page/2',
+    component: ComponentCreator('/myblog/blog/tags/hello/page/2', '31c'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/hola',
     component: ComponentCreator('/myblog/blog/tags/hola', '1eb'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Using-Bitbucket',
+    component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'f33'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Using-Bitbucket',
+    component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'b40'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/Using-Bitbucket',
+    component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'bbb'),
     exact: true
   },
   {

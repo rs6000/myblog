@@ -42,7 +42,7 @@
       "plugin": "plugin---myblog-docusaurus-debugb-38-773"
     }
   },
-  "/myblog/blog-0a0": {
+  "/myblog/blog-346": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -50,19 +50,70 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blogf-4-f-2d5"
+        "content": "content---myblog-blog-395-3e1"
       },
       {
-        "content": "content---myblog-blog-871-3ef"
+        "content": "content---myblog-blogc-0-a-585"
       },
       {
-        "content": "content---myblog-blog-925-131"
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "__props": "__props---myblog-bloge-8-d-880"
+  },
+  "/myblog/blog/2025-Ubuntu-Server-Ops-f3d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-2025-ubuntu-server-ops-1-ba-0c9"
+  },
+  "/myblog/blog/2025-Ubuntu-Server-Upgrade-18d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-2025-ubuntu-server-upgradec-9-f-26a"
+  },
+  "/myblog/blog/Add-a-new-subdomain-using-Nginx-025": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-add-a-new-subdomain-using-nginxa-25-807"
   },
   "/myblog/blog/archive-0c1": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -75,89 +126,241 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-66-b-710"
   },
-  "/myblog/blog/authors/all-sebastien-lorber-articles-a81": {
+  "/myblog/blog/authors/all-sebastien-lorber-articles-f77": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blogf-4-f-2d5"
+        "content": "content---myblog-blog-395-3e1"
       },
       {
-        "content": "content---myblog-blog-925-131"
+        "content": "content---myblog-blogc-0-a-585"
+      },
+      {
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-all-sebastien-lorber-articles-967-13d"
   },
-  "/myblog/blog/authors/yangshun-d12": {
+  "/myblog/blog/authors/all-sebastien-lorber-articles/authors/2-20c": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
       },
       {
-        "content": "content---myblog-blog-871-3ef"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
       },
       {
-        "content": "content---myblog-blog-925-131"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+      }
+    ],
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "__props": "__props---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-cc-9-928"
+  },
+  "/myblog/blog/authors/yangshun-c9e": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "items": [
+      {
+        "content": "content---myblog-blogc-9-e-04d"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blogc-0-a-585"
+      },
+      {
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-yangshun-5-f-2-ea9"
   },
+  "/myblog/blog/authors/yangshun/authors/2-478": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+      },
+      {
+        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+      },
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+      }
+    ],
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "__props": "__props---myblog-blog-authors-yangshun-authors-2-d-91-ab4"
+  },
+  "/myblog/blog/Create-TaildwindCss-Project-With-Vite-72e": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-create-taildwind-css-project-with-vitec-76-a5f"
+  },
   "/myblog/blog/first-blog-post-df1": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-first-blog-poste-27-9c9"
   },
+  "/myblog/blog/Linode-changed-server-us-to-jp-b28": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-linode-changed-server-us-to-jp-34-a-796"
+  },
   "/myblog/blog/long-blog-post-36a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-long-blog-post-736-99c"
   },
+  "/myblog/blog/Manual-Update-WordPress-92c": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-manual-update-word-press-9-e-8-e9d"
+  },
   "/myblog/blog/mdx-blog-post-d1e": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-mdx-blog-post-593-ca2"
+  },
+  "/myblog/blog/page/2-b54": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+      },
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
+      },
+      {
+        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+      },
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+      }
+    ],
+    "__props": "__props---myblog-blog-page-27-eb-62c"
+  },
+  "/myblog/blog/Setting-up-a-React-Native-development-environment-50a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-setting-up-a-react-native-development-environment-19-a-af0"
   },
   "/myblog/blog/tags-68d": {
     "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
@@ -167,7 +370,7 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-tags-627-8ab"
   },
-  "/myblog/blog/tags/docusaurus-8b5": {
+  "/myblog/blog/tags/docusaurus-fe6": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -175,21 +378,39 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blogf-4-f-2d5"
+        "content": "content---myblog-blog-395-3e1"
       },
       {
-        "content": "content---myblog-blog-871-3ef"
+        "content": "content---myblog-blogc-0-a-585"
       },
       {
-        "content": "content---myblog-blog-925-131"
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "__props": "__props---myblog-blog-tags-docusaurus-511-5f3"
   },
-  "/myblog/blog/tags/facebook-ce7": {
+  "/myblog/blog/tags/docusaurus/page/2-f57": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -197,12 +418,61 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+      },
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
+      },
+      {
+        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+      },
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-docusaurus-page-2-f-9-b-bd3"
+  },
+  "/myblog/blog/tags/facebook-d7e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blogc-9-e-04d"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blogc-0-a-585"
+      },
+      {
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "__props": "__props---myblog-blog-tags-facebook-048-601"
   },
-  "/myblog/blog/tags/hello-8a9": {
+  "/myblog/blog/tags/facebook/page/2-148": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -210,13 +480,66 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-766-c3e"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-facebook-page-259-b-a43"
+  },
+  "/myblog/blog/tags/hello-974": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-871-3ef"
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blogc-0-a-585"
+      },
+      {
+        "content": "content---myblog-blog-0-f-2-649"
+      },
+      {
+        "content": "content---myblog-blog-1-d-4-485"
+      },
+      {
+        "content": "content---myblog-blog-544-6c5"
+      },
+      {
+        "content": "content---myblog-blog-85-b-e1b"
+      },
+      {
+        "content": "content---myblog-blogc-38-ffa"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
+      },
+      {
+        "content": "content---myblog-blog-395-3e1"
       }
     ],
     "__props": "__props---myblog-blog-tags-hello-613-63e"
+  },
+  "/myblog/blog/tags/hello/page/2-31c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+      },
+      {
+        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-hello-page-230-a-2ec"
   },
   "/myblog/blog/tags/hola-1eb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
@@ -226,16 +549,49 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-925-131"
+        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
       }
     ],
     "__props": "__props---myblog-blog-tags-hola-53-f-bf9"
+  },
+  "/myblog/blog/Using-Bitbucket-f33": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-using-bitbucket-296-56b"
+  },
+  "/myblog/blog/Using-Bitbucket-b40": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-using-bitbucketb-48-131"
+  },
+  "/myblog/blog/Using-Bitbucket-bbb": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-using-bitbucket-571-26d"
   },
   "/myblog/blog/welcome-b1a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-authorsace-325"
+        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },

@@ -27,7 +27,7 @@ build/
 out/
 .next/
 .cache/
-.docusaurus/*
+.docusaurus/
 
 
 
@@ -45,4 +45,3 @@ logs/
 *.tmp
 *.swp
 *.swo
-

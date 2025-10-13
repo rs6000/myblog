@@ -1,0 +1,51 @@
+.latestPostsSection {
+    padding: 60px 0;
+    text-align: center;
+    /* 可以調整背景顏色以符合您的設計 */
+    background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.postList {
+    list-style-type: none;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.postItem {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px dashed var(--ifm-hr-border-color);
+    transition: background-color 0.3s;
+}
+
+.postItem:hover {
+    background-color: var(--ifm-hover-overlay);
+}
+
+.postItem:last-child {
+    border-bottom: none;
+}
+
+.postDate {
+    font-size: 0.95rem;
+    color: var(--ifm-color-secondary);
+    min-width: 120px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.postLink {
+    flex-grow: 1;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.15rem;
+    margin-left: 20px;
+    text-decoration: none;
+}
