@@ -50,10 +50,6 @@ export default {
     [
       "classic",
       {
-        "docs": {
-          "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
         "blog": {
           "showReadingTime": true,
           "feedOptions": {
@@ -88,12 +84,6 @@ export default {
         "src": "img/logo.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
         {
           "to": "/blog",
           "label": "Blog",

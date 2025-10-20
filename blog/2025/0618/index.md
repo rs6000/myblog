@@ -1,7 +1,7 @@
 ---
 slug: Linode-changed-server-us-to-jp
 title: 更換主機IP從美國加州換到日本東京
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-06-18T10:00
 ---

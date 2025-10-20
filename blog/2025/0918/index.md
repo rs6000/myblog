@@ -1,7 +1,7 @@
 ---
 slug: Create-TaildwindCss-Project-With-Vite
 title: 使用 Vite 建立 React 專案並使用 TailwindCSS
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-09-18T10:00
 ---

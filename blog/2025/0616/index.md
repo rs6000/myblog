@@ -1,7 +1,7 @@
 ---
 slug: 2025-Ubuntu-Server-Ops
 title: 2025 Ubuntu主機運營紀錄(長期更新) 5566
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-06-16T10:00
 ---

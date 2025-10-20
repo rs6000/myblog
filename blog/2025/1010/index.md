@@ -1,7 +1,7 @@
 ---
 slug: Add-a-new-subdomain-using-Nginx
 title: 使用Nginx新增一個子網域(Subdomain)
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-10-10T10:00
 ---

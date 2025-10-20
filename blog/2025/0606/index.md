@@ -1,18 +1,12 @@
 ---
 slug: Setting-up-a-React-Native-development-environment
 title: 建立React Native 開發環境
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-06-06T10:00
 ---
-
+- 發布日期: 2022年1月6日
 ### 前言:
-#### 發布日期: 2022 年 1 月 6 日下午 1:10
-
-### 前言:
-
-#### 2022第一篇
-
 這是一篇建立React Native 開發環境的筆記 (在Windows 10 底下 ) 題外話:不知為何，我買的線上課程都是用Mac環境...摸了幾天後才曉得 but 沒錢買 MacBook Pro M1 啦...
 
 <!-- truncate -->

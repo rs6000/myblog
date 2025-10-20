@@ -1,7 +1,7 @@
 ---
 slug: Using-Bitbucket
 title: 把程式推送到Bitbucket
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-10-10T10:00
 ---

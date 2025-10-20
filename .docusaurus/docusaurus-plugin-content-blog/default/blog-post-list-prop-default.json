@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "自動產生 docusaurus blog 文件模板",
+      "permalink": "/myblog/blog/auto-docusaurus-blog-generator",
+      "unlisted": false,
+      "date": "2025-10-19T10:00:00.000Z"
+    },
+    {
       "title": "2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)",
       "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/myblog/blog/Manual-Update-WordPress",
       "unlisted": false,
       "date": "2025-10-09T10:00:00.000Z"
-    },
-    {
-      "title": "使用 Vite 建立 React 專案並使用 TailwindCSS",
-      "permalink": "/myblog/blog/Create-TaildwindCss-Project-With-Vite",
-      "unlisted": false,
-      "date": "2025-09-18T10:00:00.000Z"
     }
   ]
 }

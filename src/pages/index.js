@@ -38,8 +38,8 @@ function BlogCard({
     return (
         // 區塊：標準區塊顯示、圓角、白色背景、陰影設定、滑鼠懸停動畫
         <div
-            className="block rounded-xl bg-white shadow-2xl shadow-gray-400/30 
-                       hover:shadow-3xl hover:shadow-blue-500/50 hover:scale-[1.02] 
+            className="block rounded-xl bg-white shadow-2xl shadow-gray-400/30
+                       hover:shadow-3xl hover:shadow-blue-500/50 hover:scale-[1.02]
                        transform transition duration-300 overflow-hidden flex flex-col"
         >
             {/* 圖片區塊 */}
@@ -85,7 +85,7 @@ function BlogCard({
                 {/* 底部對齊、行內區塊、圓角、背景色、內邊距、文字大小、粗體、文字白色、陰影、動畫效果 */}
                 <Link
                     to={permalink}
-                    className="mt-auto inline-block rounded bg-purple-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg 
+                    className="mt-auto inline-block rounded bg-purple-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg
                                transition duration-150 ease-in-out hover:bg-purple-700 hover:shadow-xl focus:bg-purple-700 focus:shadow-xl focus:outline-none focus:ring-0 active:bg-purple-800"
                     type="button"
                 >
@@ -163,7 +163,7 @@ export default function Home() {
                     <div className="mt-8">
                         {/* 按鈕樣式：內邊距、白色背景、文字顏色、圓角、陰影、粗體、動畫 */}
                         <Link
-                            to="/docs/intro"
+                            to="/blog"
                             className="px-8 py-3 bg-white text-purple-700 font-semibold rounded-lg shadow hover:bg-gray-200 transition"
                         >
                             開始探索

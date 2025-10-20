@@ -42,7 +42,7 @@
       "plugin": "plugin---myblog-docusaurus-debugb-38-773"
     }
   },
-  "/myblog/blog-346": {
+  "/myblog/blog-1cb": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -50,10 +50,13 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
+        "content": "content---myblog-blog-97-e-b22"
+      },
+      {
         "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-502-759"
       },
       {
         "content": "content---myblog-blogc-0-a-585"
@@ -74,19 +77,27 @@
         "content": "content---myblog-blogc-38-ffa"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-8-a-9-57d"
       }
     ],
     "__props": "__props---myblog-bloge-8-d-880"
+  },
+  "/myblog/blog/12223-563": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-12223014-d2c"
   },
   "/myblog/blog/2025-Ubuntu-Server-Ops-f3d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
@@ -97,7 +108,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
@@ -108,7 +119,7 @@
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
@@ -126,92 +137,42 @@
     "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-66-b-710"
   },
-  "/myblog/blog/authors/all-sebastien-lorber-articles-f77": {
+  "/myblog/blog/authors/all-sebastien-lorber-articles-6b1": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
-    "items": [
-      {
-        "content": "content---myblog-blogc-9-e-04d"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blogc-0-a-585"
-      },
-      {
-        "content": "content---myblog-blog-0-f-2-649"
-      },
-      {
-        "content": "content---myblog-blog-1-d-4-485"
-      },
-      {
-        "content": "content---myblog-blog-544-6c5"
-      },
-      {
-        "content": "content---myblog-blog-85-b-e1b"
-      },
-      {
-        "content": "content---myblog-blogc-38-ffa"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
-      }
-    ],
+    "items": [],
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-all-sebastien-lorber-articles-967-13d"
   },
-  "/myblog/blog/authors/all-sebastien-lorber-articles/authors/2-20c": {
+  "/myblog/blog/authors/smilehsu-a14": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+        "content": "content---myblog-blog-97-e-b22"
       },
-      {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
-      },
-      {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
-      }
-    ],
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "__props": "__props---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-cc-9-928"
-  },
-  "/myblog/blog/authors/yangshun-c9e": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "items": [
       {
         "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-502-759"
       },
       {
         "content": "content---myblog-blogc-0-a-585"
@@ -232,104 +193,111 @@
         "content": "content---myblog-blogc-38-ffa"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-8-a-9-57d"
       }
     ],
     "sidebar": "sidebar---myblog-blog-814-70b",
-    "__props": "__props---myblog-blog-authors-yangshun-5-f-2-ea9"
+    "__props": "__props---myblog-blog-authors-smilehsuf-90-c62"
   },
-  "/myblog/blog/authors/yangshun/authors/2-478": {
+  "/myblog/blog/authors/smilehsu/authors/2-0b5": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       },
       {
-        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+        "content": "content---myblog-blog-authors-smilehsu-authors-23-fb-c80"
       },
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+        "content": "content---myblog-blog-authors-smilehsu-authors-205-c-cfc"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-2-b-7-d-066"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-203-f-2ee"
       }
     ],
     "sidebar": "sidebar---myblog-blog-814-70b",
-    "__props": "__props---myblog-blog-authors-yangshun-authors-2-d-91-ab4"
+    "__props": "__props---myblog-blog-authors-smilehsu-authors-28-dc-bb3"
+  },
+  "/myblog/blog/authors/yangshun-175": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "items": [],
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "__props": "__props---myblog-blog-authors-yangshun-5-f-2-ea9"
+  },
+  "/myblog/blog/auto-docusaurus-blog-generator-e82": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-auto-docusaurus-blog-generator-13-d-d1d"
   },
   "/myblog/blog/Create-TaildwindCss-Project-With-Vite-72e": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-create-taildwind-css-project-with-vitec-76-a5f"
   },
-  "/myblog/blog/first-blog-post-df1": {
+  "/myblog/blog/first-python-gui-program-655": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-first-blog-poste-27-9c9"
+    "content": "content---myblog-blog-first-python-gui-programac-6-fa3"
   },
   "/myblog/blog/Linode-changed-server-us-to-jp-b28": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-linode-changed-server-us-to-jp-34-a-796"
   },
-  "/myblog/blog/long-blog-post-36a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-long-blog-post-736-99c"
-  },
   "/myblog/blog/Manual-Update-WordPress-92c": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-manual-update-word-press-9-e-8-e9d"
   },
-  "/myblog/blog/mdx-blog-post-d1e": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-mdx-blog-post-593-ca2"
-  },
-  "/myblog/blog/page/2-b54": {
+  "/myblog/blog/page/2-07f": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -337,25 +305,86 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       },
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
+        "content": "content---myblog-blog-authors-smilehsu-authors-23-fb-c80"
       },
       {
-        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+        "content": "content---myblog-blog-authors-smilehsu-authors-205-c-cfc"
       },
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2-b-7-d-066"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-203-f-2ee"
       }
     ],
     "__props": "__props---myblog-blog-page-27-eb-62c"
+  },
+  "/myblog/blog/Python-Tkinter-GUI-example-stock-profit-calculator-a2a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-python-tkinter-gui-example-stock-profit-calculator-38-d-c9b"
+  },
+  "/myblog/blog/React-Native-Barcode-Module-c71": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-react-native-barcode-module-9-ac-aec"
+  },
+  "/myblog/blog/React-Native-Book-ISBN-Scanner-2b2": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-react-native-book-isbn-scanner-5-f-6-faf"
+  },
+  "/myblog/blog/React-Native-Camera-Module-582": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-react-native-camera-module-967-e50"
+  },
+  "/myblog/blog/RESTful-API-with-JS-02b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-res-tful-api-with-js-1-f-9-537"
   },
   "/myblog/blog/Setting-up-a-React-Native-development-environment-50a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
@@ -370,7 +399,7 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-tags-627-8ab"
   },
-  "/myblog/blog/tags/docusaurus-fe6": {
+  "/myblog/blog/tags/barcode-61b": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -378,10 +407,61 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-barcodee-15-763"
+  },
+  "/myblog/blog/tags/camera-c2d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-205-c-cfc"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-2-b-7-d-066"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-203-f-2ee"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-camera-47-d-52b"
+  },
+  "/myblog/blog/tags/chat-gpt-811": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-97-e-b22"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-chat-gpteec-530"
+  },
+  "/myblog/blog/tags/docusaurus-694": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-97-e-b22"
+      },
+      {
         "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-502-759"
       },
       {
         "content": "content---myblog-blogc-0-a-585"
@@ -402,15 +482,12 @@
         "content": "content---myblog-blogc-38-ffa"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-authors-smilehsu-authors-23-fb-c80"
       }
     ],
     "__props": "__props---myblog-blog-tags-docusaurus-511-5f3"
   },
-  "/myblog/blog/tags/docusaurus/page/2-f57": {
+  "/myblog/blog/tags/example-110": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -418,21 +495,34 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
-      },
-      {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2-f-4-f-490"
-      },
-      {
-        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
-      },
-      {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       }
     ],
-    "__props": "__props---myblog-blog-tags-docusaurus-page-2-f-9-b-bd3"
+    "__props": "__props---myblog-blog-tags-exampleb-64-6d1"
   },
-  "/myblog/blog/tags/facebook-d7e": {
+  "/myblog/blog/tags/expo-c6c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-205-c-cfc"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-2-b-7-d-066"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-203-f-2ee"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-expo-9-e-4-8a6"
+  },
+  "/myblog/blog/tags/facebook-34e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -443,7 +533,7 @@
         "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-502-759"
       },
       {
         "content": "content---myblog-blogc-0-a-585"
@@ -464,15 +554,12 @@
         "content": "content---myblog-blogc-38-ffa"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-authors-smilehsu-authors-23-fb-c80"
       }
     ],
     "__props": "__props---myblog-blog-tags-facebook-048-601"
   },
-  "/myblog/blog/tags/facebook/page/2-148": {
+  "/myblog/blog/tags/gui-2bb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -480,12 +567,12 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+        "content": "content---myblog-blog-8-a-9-57d"
       }
     ],
-    "__props": "__props---myblog-blog-tags-facebook-page-259-b-a43"
+    "__props": "__props---myblog-blog-tags-gui-3-fc-3ad"
   },
-  "/myblog/blog/tags/hello-974": {
+  "/myblog/blog/tags/hello-aa9": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -496,7 +583,7 @@
         "content": "content---myblog-blogc-9-e-04d"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-502-759"
       },
       {
         "content": "content---myblog-blogc-0-a-585"
@@ -517,15 +604,12 @@
         "content": "content---myblog-blogc-38-ffa"
       },
       {
-        "content": "content---myblog-blog-395-3e1"
-      },
-      {
-        "content": "content---myblog-blog-395-3e1"
+        "content": "content---myblog-blog-authors-smilehsu-authors-23-fb-c80"
       }
     ],
     "__props": "__props---myblog-blog-tags-hello-613-63e"
   },
-  "/myblog/blog/tags/hello/page/2-31c": {
+  "/myblog/blog/tags/isbn-5c8": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -533,15 +617,60 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2766-779"
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-isbn-939-c98"
+  },
+  "/myblog/blog/tags/js-832": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-js-543-e4a"
+  },
+  "/myblog/blog/tags/python-68a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-8-a-9-57d"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-pythone-14-495"
+  },
+  "/myblog/blog/tags/react-native-71c": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-205-c-cfc"
       },
       {
-        "content": "content---myblog-blog-authors-yangshun-authors-2871-bcb"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2-b-7-d-066"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      },
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-203-f-2ee"
       }
     ],
-    "__props": "__props---myblog-blog-tags-hello-page-230-a-2ec"
+    "__props": "__props---myblog-blog-tags-react-native-78-a-b13"
   },
-  "/myblog/blog/tags/hola-1eb": {
+  "/myblog/blog/tags/res-tful-api-cbe": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -549,54 +678,60 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-authors-all-sebastien-lorber-articles-authors-2925-aed"
+        "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       }
     ],
-    "__props": "__props---myblog-blog-tags-hola-53-f-bf9"
+    "__props": "__props---myblog-blog-tags-res-tful-apic-34-2f9"
+  },
+  "/myblog/blog/tags/scanner-e1d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-21-cb-4a1"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-scanner-5-a-6-5d8"
+  },
+  "/myblog/blog/tags/tkinter-f69": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-8-a-9-57d"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-tkinter-404-75b"
+  },
+  "/myblog/blog/tags/vibe-coding-47d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blog-97-e-b22"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-vibe-codingb-8-a-4ba"
   },
   "/myblog/blog/Using-Bitbucket-f33": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
       },
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-using-bitbucket-296-56b"
-  },
-  "/myblog/blog/Using-Bitbucket-b40": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-using-bitbucketb-48-131"
-  },
-  "/myblog/blog/Using-Bitbucket-bbb": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-using-bitbucket-571-26d"
-  },
-  "/myblog/blog/welcome-b1a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
-    "__context": {
-      "data": {
-        "blogMetadata": "blogMetadata---myblog-blog-2025-ubuntu-server-opsace-711"
-      },
-      "plugin": "plugin---myblog-blog-369-1bb"
-    },
-    "sidebar": "sidebar---myblog-blog-814-70b",
-    "content": "content---myblog-blog-welcomed-9-f-cf9"
   },
   "/myblog/markdown-page-04e": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
@@ -605,472 +740,472 @@
     },
     "content": "content---myblog-markdown-page-393-73a"
   },
-  "/myblog/docs-d7c": {
+  "/myblog/docs-d28": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---myblog-docsaba-83e"
     }
   },
-  "/myblog/docs-599": {
+  "/myblog/docs-631": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---myblog-docsb-01-3c2"
   },
-  "/myblog/docs-f3e": {
+  "/myblog/docs-c50": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/myblog/docs/category/2021-ithome鐵人賽-223": {
+  "/myblog/docs/category/2021-ithome鐵人賽-07b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-2021-ithome鐵人賽-474-517"
   },
-  "/myblog/docs/category/2022-ithome鐵人賽-fe9": {
+  "/myblog/docs/category/2022-ithome鐵人賽-3dd": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-2022-ithome鐵人賽c-2-b-f56"
   },
-  "/myblog/docs/category/2023-ithome鐵人賽-66b": {
+  "/myblog/docs/category/2023-ithome鐵人賽-d87": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-2023-ithome鐵人賽a-1-b-88f"
   },
-  "/myblog/docs/category/docusaurus-筆記-8d8": {
+  "/myblog/docs/category/docusaurus-筆記-8ea": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-docusaurus-筆記-574-63e"
   },
-  "/myblog/docs/category/ithome-鐵人賽-428": {
+  "/myblog/docs/category/ithome-鐵人賽-637": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-ithome-鐵人賽e-8-d-c48"
   },
-  "/myblog/docs/category/linux-筆記-8a3": {
+  "/myblog/docs/category/linux-筆記-527": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-linux-筆記-3-e-9-898"
   },
-  "/myblog/docs/category/tutorial---basics-e79": {
+  "/myblog/docs/category/tutorial---basics-fa1": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-tutorial-basicse-98-87c"
   },
-  "/myblog/docs/category/tutorial---extras-30d": {
+  "/myblog/docs/category/tutorial---extras-31f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---myblog-docs-category-tutorial-extras-755-a39"
   },
-  "/myblog/docs/Docusaurus/Deploy-your-site-32f": {
+  "/myblog/docs/Docusaurus/Deploy-your-site-eba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-docusaurus-deploy-your-site-3-c-0-2d4"
   },
-  "/myblog/docs/Docusaurus/docusaurus-qa-44d": {
+  "/myblog/docs/Docusaurus/docusaurus-qa-7ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-docusaurus-docusaurus-qa-5-b-1-a9a"
   },
-  "/myblog/docs/Docusaurus/goodlink-de0": {
+  "/myblog/docs/Docusaurus/goodlink-cee": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-docusaurus-goodlinka-28-4b3"
   },
-  "/myblog/docs/intro-b96": {
+  "/myblog/docs/intro-fe0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-intro-0-e-3-6fa"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01-b9d": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01-af6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-018-d-2-817"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02-9c6": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02-482": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-02619-719"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03-485": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03-14d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-03-af-7-f8e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04-d50": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04-d1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-041-a-1-a4e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05-23d": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05-4fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-057-e-8-8df"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06-b5a": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06-6a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-06-acd-99f"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07-326": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07-122": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-073-d-3-d0d"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08-dea": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08-ab4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-08-a-92-840"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09-598": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09-7e6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-09649-b69"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10-7d8": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10-ee8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-107-b-8-be7"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11-0ba": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11-2b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-11207-88f"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12-828": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12-0b9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-12116-e48"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13-b67": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13-f15": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-13-c-00-a3e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14-817": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14-a7e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-14808-f64"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15-294": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15-480": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-15-bc-3-760"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16-51a": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16-b73": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-16109-762"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17-f9f": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17-36d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-178-e-5-130"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18-b68": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18-ce4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-1874-d-9fa"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19-c64": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19-483": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-1993-a-e80"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20-254": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20-011": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-20-fb-2-1de"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21-b2a": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21-6cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-21-d-82-3a6"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22-8df": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22-8af": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-22-a-01-d1e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23-14b": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23-70f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-237-e-2-9a5"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24-b1f": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24-7f3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-24-c-84-7b9"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25-447": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25-dc4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-25-a-59-7c0"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26-7eb": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26-4c2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-26547-03b"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27-cff": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27-04a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-27-a-5-c-3e9"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28-882": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28-fbf": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-2801-a-1f0"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29-e9e": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29-2c8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-2987-a-31f"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30-7b3": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30-72f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-30046-01e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31-5d3": {
+  "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31-aab": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2021-i-thome-2021-day-3117-b-628"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01-702": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01-6f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-0153-b-fc4"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02-8bc": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02-9da": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-027-f-1-bfd"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03-f9d": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03-7a7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-03-e-6-c-ec8"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04-1a3": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04-a44": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-044-b-7-ecb"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05-382": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05-f73": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-057-c-5-e39"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06-0c5": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06-3fe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-0660-a-636"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07-03f": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07-4a9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-07-acf-98e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08-fad": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08-1fc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-08-e-8-f-4a5"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09-8ec": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09-952": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-09-f-81-028"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10-015": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10-ae0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-10751-054"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11-0b1": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11-596": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-11897-52d"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12-3ad": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12-7d6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-12-c-99-b6b"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13-fad": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13-492": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-13-c-9-b-c4f"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14-9a4": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14-e9c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-14-e-75-46e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15-f02": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15-733": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-15-d-48-4a0"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16-e1d": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16-813": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-16598-5b0"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17-911": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17-0cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-175-b-0-2cf"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18-50f": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18-fa4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-1863-c-f2a"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19-c27": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19-c91": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-19091-b83"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20-af5": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20-c58": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-20-f-55-b19"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21-997": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21-c13": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-21159-5c6"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22-55e": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22-387": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-22910-5f3"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23-a37": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23-5e7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-23962-f45"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24-ce0": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24-e79": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-24-c-0-c-a67"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25-f3f": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25-0fc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-250-c-3-bd1"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26-384": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26-68e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-26030-4a5"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27-572": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27-f11": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-27-be-2-641"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28-e35": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28-a1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-28-cae-c87"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29-2b6": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29-ec7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-29853-768"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30-306": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30-4b4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-3083-f-570"
   },
-  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31-a80": {
+  "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31-2e3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2022-i-thome-2021-day-31-f-87-10e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01-976": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01-d56": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-01176-1eb"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02-799": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02-a44": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-02870-aef"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03-8df": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03-ec7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-03-b-17-a92"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04-0ac": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04-abd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-040-dd-ebf"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05-760": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05-2d7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-05206-33a"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06-904": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06-f28": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-06-b-7-b-154"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07-903": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07-f5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-07-c-6-c-ad1"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08-c9c": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08-422": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-0872-b-827"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09-10e": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09-fc6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-09907-4e0"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10-fb6": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10-d75": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-10308-573"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11-d9a": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11-1ae": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-11-e-1-c-572"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12-552": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12-956": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-12-e-2-f-9bb"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13-91e": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13-405": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-1388-e-7ba"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14-ecf": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14-33c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-14-d-65-e56"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15-74b": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15-3aa": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-15-bfd-774"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16-711": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16-ea4": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-16-aea-937"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17-f9a": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17-602": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-1778-f-183"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18-e7b": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18-464": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-18-e-4-b-9ee"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19-060": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19-4be": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-195-ba-c24"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20-9ca": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20-c10": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-20924-d3a"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21-3f0": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21-2b1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-21938-cef"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22-772": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22-7eb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-22-fc-3-f77"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23-d10": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23-5b6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-23777-f9e"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24-063": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24-8af": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-24-e-9-a-ff4"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25-a86": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25-4df": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-2508-b-73f"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26-ae3": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26-da1": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-26-b-7-e-65b"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27-d54": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27-a07": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-27-afd-079"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28-6f3": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28-07a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-289-ae-986"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29-21f": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29-330": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-2903-d-60d"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30-6d0": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30-e62": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-3024-a-66d"
   },
-  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31-26f": {
+  "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31-4d5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-ithome-ironman-i-thome-2023-i-thome-2021-day-313-ed-0f1"
   },
-  "/myblog/docs/linux/linux_tips-8db": {
+  "/myblog/docs/linux/linux_tips-0cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-linux-linux-tipsdbf-667"
   },
-  "/myblog/docs/tutorial-basics/congratulations-a22": {
+  "/myblog/docs/tutorial-basics/congratulations-359": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-congratulations-822-d05"
   },
-  "/myblog/docs/tutorial-basics/create-a-blog-post-7b1": {
+  "/myblog/docs/tutorial-basics/create-a-blog-post-861": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-create-a-blog-post-533-c5b"
   },
-  "/myblog/docs/tutorial-basics/create-a-document-fa6": {
+  "/myblog/docs/tutorial-basics/create-a-document-80f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-create-a-document-1-e-4-725"
   },
-  "/myblog/docs/tutorial-basics/create-a-page-05f": {
+  "/myblog/docs/tutorial-basics/create-a-page-57b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-create-a-page-5-c-8-2d4"
   },
-  "/myblog/docs/tutorial-basics/deploy-your-site-a71": {
+  "/myblog/docs/tutorial-basics/deploy-your-site-ad8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-deploy-your-sitef-55-3bc"
   },
-  "/myblog/docs/tutorial-basics/markdown-features-edd": {
+  "/myblog/docs/tutorial-basics/markdown-features-663": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-basics-markdown-features-18-c-e07"
   },
-  "/myblog/docs/tutorial-extras/manage-docs-versions-519": {
+  "/myblog/docs/tutorial-extras/manage-docs-versions-1fc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-extras-manage-docs-versionsdff-910"
   },
-  "/myblog/docs/tutorial-extras/translate-your-site-c59": {
+  "/myblog/docs/tutorial-extras/translate-your-site-612": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---myblog-docs-tutorial-extras-translate-your-sitee-44-fc9"
   },

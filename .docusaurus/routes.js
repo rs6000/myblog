@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/myblog/blog',
-    component: ComponentCreator('/myblog/blog', '346'),
+    component: ComponentCreator('/myblog/blog', '1cb'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/12223',
+    component: ComponentCreator('/myblog/blog/12223', '563'),
     exact: true
   },
   {
@@ -69,22 +74,27 @@ export default [
   },
   {
     path: '/myblog/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles', 'f77'),
+    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles', '6b1'),
     exact: true
   },
   {
-    path: '/myblog/blog/authors/all-sebastien-lorber-articles/authors/2',
-    component: ComponentCreator('/myblog/blog/authors/all-sebastien-lorber-articles/authors/2', '20c'),
+    path: '/myblog/blog/authors/smilehsu',
+    component: ComponentCreator('/myblog/blog/authors/smilehsu', 'a14'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/authors/smilehsu/authors/2',
+    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '0b5'),
     exact: true
   },
   {
     path: '/myblog/blog/authors/yangshun',
-    component: ComponentCreator('/myblog/blog/authors/yangshun', 'c9e'),
+    component: ComponentCreator('/myblog/blog/authors/yangshun', '175'),
     exact: true
   },
   {
-    path: '/myblog/blog/authors/yangshun/authors/2',
-    component: ComponentCreator('/myblog/blog/authors/yangshun/authors/2', '478'),
+    path: '/myblog/blog/auto-docusaurus-blog-generator',
+    component: ComponentCreator('/myblog/blog/auto-docusaurus-blog-generator', 'e82'),
     exact: true
   },
   {
@@ -93,8 +103,8 @@ export default [
     exact: true
   },
   {
-    path: '/myblog/blog/first-blog-post',
-    component: ComponentCreator('/myblog/blog/first-blog-post', 'df1'),
+    path: '/myblog/blog/first-python-gui-program',
+    component: ComponentCreator('/myblog/blog/first-python-gui-program', '655'),
     exact: true
   },
   {
@@ -103,23 +113,38 @@ export default [
     exact: true
   },
   {
-    path: '/myblog/blog/long-blog-post',
-    component: ComponentCreator('/myblog/blog/long-blog-post', '36a'),
-    exact: true
-  },
-  {
     path: '/myblog/blog/Manual-Update-WordPress',
     component: ComponentCreator('/myblog/blog/Manual-Update-WordPress', '92c'),
     exact: true
   },
   {
-    path: '/myblog/blog/mdx-blog-post',
-    component: ComponentCreator('/myblog/blog/mdx-blog-post', 'd1e'),
+    path: '/myblog/blog/page/2',
+    component: ComponentCreator('/myblog/blog/page/2', '07f'),
     exact: true
   },
   {
-    path: '/myblog/blog/page/2',
-    component: ComponentCreator('/myblog/blog/page/2', 'b54'),
+    path: '/myblog/blog/Python-Tkinter-GUI-example-stock-profit-calculator',
+    component: ComponentCreator('/myblog/blog/Python-Tkinter-GUI-example-stock-profit-calculator', 'a2a'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/React-Native-Barcode-Module',
+    component: ComponentCreator('/myblog/blog/React-Native-Barcode-Module', 'c71'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/React-Native-Book-ISBN-Scanner',
+    component: ComponentCreator('/myblog/blog/React-Native-Book-ISBN-Scanner', '2b2'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/React-Native-Camera-Module',
+    component: ComponentCreator('/myblog/blog/React-Native-Camera-Module', '582'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/RESTful-API-with-JS',
+    component: ComponentCreator('/myblog/blog/RESTful-API-with-JS', '02b'),
     exact: true
   },
   {
@@ -133,58 +158,93 @@ export default [
     exact: true
   },
   {
-    path: '/myblog/blog/tags/docusaurus',
-    component: ComponentCreator('/myblog/blog/tags/docusaurus', 'fe6'),
+    path: '/myblog/blog/tags/barcode',
+    component: ComponentCreator('/myblog/blog/tags/barcode', '61b'),
     exact: true
   },
   {
-    path: '/myblog/blog/tags/docusaurus/page/2',
-    component: ComponentCreator('/myblog/blog/tags/docusaurus/page/2', 'f57'),
+    path: '/myblog/blog/tags/camera',
+    component: ComponentCreator('/myblog/blog/tags/camera', 'c2d'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/chat-gpt',
+    component: ComponentCreator('/myblog/blog/tags/chat-gpt', '811'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/docusaurus',
+    component: ComponentCreator('/myblog/blog/tags/docusaurus', '694'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/example',
+    component: ComponentCreator('/myblog/blog/tags/example', '110'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/expo',
+    component: ComponentCreator('/myblog/blog/tags/expo', 'c6c'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/facebook',
-    component: ComponentCreator('/myblog/blog/tags/facebook', 'd7e'),
+    component: ComponentCreator('/myblog/blog/tags/facebook', '34e'),
     exact: true
   },
   {
-    path: '/myblog/blog/tags/facebook/page/2',
-    component: ComponentCreator('/myblog/blog/tags/facebook/page/2', '148'),
+    path: '/myblog/blog/tags/gui',
+    component: ComponentCreator('/myblog/blog/tags/gui', '2bb'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/hello',
-    component: ComponentCreator('/myblog/blog/tags/hello', '974'),
+    component: ComponentCreator('/myblog/blog/tags/hello', 'aa9'),
     exact: true
   },
   {
-    path: '/myblog/blog/tags/hello/page/2',
-    component: ComponentCreator('/myblog/blog/tags/hello/page/2', '31c'),
+    path: '/myblog/blog/tags/isbn',
+    component: ComponentCreator('/myblog/blog/tags/isbn', '5c8'),
     exact: true
   },
   {
-    path: '/myblog/blog/tags/hola',
-    component: ComponentCreator('/myblog/blog/tags/hola', '1eb'),
+    path: '/myblog/blog/tags/js',
+    component: ComponentCreator('/myblog/blog/tags/js', '832'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/python',
+    component: ComponentCreator('/myblog/blog/tags/python', '68a'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/react-native',
+    component: ComponentCreator('/myblog/blog/tags/react-native', '71c'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/res-tful-api',
+    component: ComponentCreator('/myblog/blog/tags/res-tful-api', 'cbe'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/scanner',
+    component: ComponentCreator('/myblog/blog/tags/scanner', 'e1d'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/tkinter',
+    component: ComponentCreator('/myblog/blog/tags/tkinter', 'f69'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/vibe-coding',
+    component: ComponentCreator('/myblog/blog/tags/vibe-coding', '47d'),
     exact: true
   },
   {
     path: '/myblog/blog/Using-Bitbucket',
     component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'f33'),
-    exact: true
-  },
-  {
-    path: '/myblog/blog/Using-Bitbucket',
-    component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'b40'),
-    exact: true
-  },
-  {
-    path: '/myblog/blog/Using-Bitbucket',
-    component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'bbb'),
-    exact: true
-  },
-  {
-    path: '/myblog/blog/welcome',
-    component: ComponentCreator('/myblog/blog/welcome', 'b1a'),
     exact: true
   },
   {
@@ -194,699 +254,699 @@ export default [
   },
   {
     path: '/myblog/docs',
-    component: ComponentCreator('/myblog/docs', 'd7c'),
+    component: ComponentCreator('/myblog/docs', 'd28'),
     routes: [
       {
         path: '/myblog/docs',
-        component: ComponentCreator('/myblog/docs', '599'),
+        component: ComponentCreator('/myblog/docs', '631'),
         routes: [
           {
             path: '/myblog/docs',
-            component: ComponentCreator('/myblog/docs', 'f3e'),
+            component: ComponentCreator('/myblog/docs', 'c50'),
             routes: [
               {
                 path: '/myblog/docs/category/2021-ithome鐵人賽',
-                component: ComponentCreator('/myblog/docs/category/2021-ithome鐵人賽', '223'),
+                component: ComponentCreator('/myblog/docs/category/2021-ithome鐵人賽', '07b'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/2022-ithome鐵人賽',
-                component: ComponentCreator('/myblog/docs/category/2022-ithome鐵人賽', 'fe9'),
+                component: ComponentCreator('/myblog/docs/category/2022-ithome鐵人賽', '3dd'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/2023-ithome鐵人賽',
-                component: ComponentCreator('/myblog/docs/category/2023-ithome鐵人賽', '66b'),
+                component: ComponentCreator('/myblog/docs/category/2023-ithome鐵人賽', 'd87'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/docusaurus-筆記',
-                component: ComponentCreator('/myblog/docs/category/docusaurus-筆記', '8d8'),
+                component: ComponentCreator('/myblog/docs/category/docusaurus-筆記', '8ea'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/ithome-鐵人賽',
-                component: ComponentCreator('/myblog/docs/category/ithome-鐵人賽', '428'),
+                component: ComponentCreator('/myblog/docs/category/ithome-鐵人賽', '637'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/linux-筆記',
-                component: ComponentCreator('/myblog/docs/category/linux-筆記', '8a3'),
+                component: ComponentCreator('/myblog/docs/category/linux-筆記', '527'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/tutorial---basics',
-                component: ComponentCreator('/myblog/docs/category/tutorial---basics', 'e79'),
+                component: ComponentCreator('/myblog/docs/category/tutorial---basics', 'fa1'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/category/tutorial---extras',
-                component: ComponentCreator('/myblog/docs/category/tutorial---extras', '30d'),
+                component: ComponentCreator('/myblog/docs/category/tutorial---extras', '31f'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/Docusaurus/Deploy-your-site',
-                component: ComponentCreator('/myblog/docs/Docusaurus/Deploy-your-site', '32f'),
+                component: ComponentCreator('/myblog/docs/Docusaurus/Deploy-your-site', 'eba'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/Docusaurus/docusaurus-qa',
-                component: ComponentCreator('/myblog/docs/Docusaurus/docusaurus-qa', '44d'),
+                component: ComponentCreator('/myblog/docs/Docusaurus/docusaurus-qa', '7ba'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/Docusaurus/goodlink',
-                component: ComponentCreator('/myblog/docs/Docusaurus/goodlink', 'de0'),
+                component: ComponentCreator('/myblog/docs/Docusaurus/goodlink', 'cee'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/intro',
-                component: ComponentCreator('/myblog/docs/intro', 'b96'),
+                component: ComponentCreator('/myblog/docs/intro', 'fe0'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01', 'b9d'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01', 'af6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02', '9c6'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02', '482'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03', '485'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03', '14d'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04', 'd50'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04', 'd1d'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05', '23d'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05', '4fb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06', 'b5a'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06', '6a8'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07', '326'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07', '122'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08', 'dea'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08', 'ab4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09', '598'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09', '7e6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10', '7d8'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10', 'ee8'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11', '0ba'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11', '2b2'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12', '828'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12', '0b9'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13', 'b67'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13', 'f15'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14', '817'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14', 'a7e'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15', '294'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15', '480'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16', '51a'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16', 'b73'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17', 'f9f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17', '36d'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18', 'b68'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18', 'ce4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19', 'c64'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19', '483'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20', '254'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20', '011'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21', 'b2a'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21', '6cb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22', '8df'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22', '8af'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23', '14b'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23', '70f'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24', 'b1f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24', '7f3'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25', '447'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25', 'dc4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26', '7eb'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26', '4c2'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27', 'cff'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27', '04a'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28', '882'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28', 'fbf'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29', 'e9e'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29', '2c8'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30', '7b3'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30', '72f'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31', '5d3'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31', 'aab'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01', '702'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01', '6f9'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02', '8bc'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02', '9da'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03', 'f9d'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03', '7a7'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04', '1a3'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04', 'a44'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05', '382'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05', 'f73'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06', '0c5'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06', '3fe'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07', '03f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07', '4a9'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08', 'fad'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08', '1fc'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09', '8ec'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09', '952'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10', '015'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10', 'ae0'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11', '0b1'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11', '596'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12', '3ad'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12', '7d6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13', 'fad'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13', '492'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14', '9a4'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14', 'e9c'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15', 'f02'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15', '733'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16', 'e1d'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16', '813'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17', '911'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17', '0cb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18', '50f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18', 'fa4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19', 'c27'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19', 'c91'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20', 'af5'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20', 'c58'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21', '997'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21', 'c13'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22', '55e'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22', '387'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23', 'a37'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23', '5e7'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24', 'ce0'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24', 'e79'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25', 'f3f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25', '0fc'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26', '384'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26', '68e'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27', '572'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27', 'f11'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28', 'e35'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28', 'a1d'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29', '2b6'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29', 'ec7'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30', '306'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30', '4b4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31', 'a80'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31', '2e3'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01', '976'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01', 'd56'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02', '799'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02', 'a44'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03', '8df'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03', 'ec7'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04', '0ac'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04', 'abd'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05', '760'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05', '2d7'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06', '904'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06', 'f28'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07', '903'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07', 'f5a'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08', 'c9c'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08', '422'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09', '10e'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09', 'fc6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10', 'fb6'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10', 'd75'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11', 'd9a'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11', '1ae'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12', '552'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12', '956'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13', '91e'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13', '405'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14', 'ecf'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14', '33c'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15', '74b'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15', '3aa'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16', '711'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16', 'ea4'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17', 'f9a'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17', '602'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18', 'e7b'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18', '464'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19', '060'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19', '4be'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20', '9ca'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20', 'c10'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21', '3f0'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21', '2b1'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22', '772'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22', '7eb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23', 'd10'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23', '5b6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24', '063'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24', '8af'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25', 'a86'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25', '4df'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26', 'ae3'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26', 'da1'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27', 'd54'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27', 'a07'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28', '6f3'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28', '07a'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29', '21f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29', '330'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30', '6d0'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30', 'e62'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31',
-                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31', '26f'),
+                component: ComponentCreator('/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31', '4d5'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/linux/linux_tips',
-                component: ComponentCreator('/myblog/docs/linux/linux_tips', '8db'),
+                component: ComponentCreator('/myblog/docs/linux/linux_tips', '0cb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/congratulations', 'a22'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/congratulations', '359'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-blog-post', '7b1'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-blog-post', '861'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-document', 'fa6'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-document', '80f'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-page', '05f'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/create-a-page', '57b'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/deploy-your-site', 'a71'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/deploy-your-site', 'ad8'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/myblog/docs/tutorial-basics/markdown-features', 'edd'),
+                component: ComponentCreator('/myblog/docs/tutorial-basics/markdown-features', '663'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/myblog/docs/tutorial-extras/manage-docs-versions', '519'),
+                component: ComponentCreator('/myblog/docs/tutorial-extras/manage-docs-versions', '1fc'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               },
               {
                 path: '/myblog/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/myblog/docs/tutorial-extras/translate-your-site', 'c59'),
+                component: ComponentCreator('/myblog/docs/tutorial-extras/translate-your-site', '612'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "defaultSidebar"
               }
             ]
           }

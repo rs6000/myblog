@@ -13,577 +13,577 @@
             {
               "id": "Docusaurus/Deploy-your-site",
               "path": "/myblog/docs/Docusaurus/Deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "Docusaurus/docusaurus-qa",
               "path": "/myblog/docs/Docusaurus/docusaurus-qa",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "Docusaurus/goodlink",
               "path": "/myblog/docs/Docusaurus/goodlink",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "intro",
               "path": "/myblog/docs/intro",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day01",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day01",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day02",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day02",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day03",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day03",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day04",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day04",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day05",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day05",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day06",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day06",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day07",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day07",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day08",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day08",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day09",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day09",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day10",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day10",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day11",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day11",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day12",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day12",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day13",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day13",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day14",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day14",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day15",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day15",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day16",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day16",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day17",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day17",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day18",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day18",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day19",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day19",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day20",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day20",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day21",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day21",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day22",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day22",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day23",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day23",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day24",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day24",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day25",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day25",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day26",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day26",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day27",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day27",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day28",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day28",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day29",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day29",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day30",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day30",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2021/iThome_2021_Day31",
               "path": "/myblog/docs/ithome-ironman/iThome_2021/iThome_2021_Day31",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day01",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day01",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day02",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day02",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day03",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day03",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day04",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day04",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day05",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day05",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day06",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day06",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day07",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day07",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day08",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day08",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day09",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day09",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day10",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day10",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day11",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day11",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day12",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day12",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day13",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day13",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day14",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day14",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day15",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day15",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day16",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day16",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day17",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day17",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day18",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day18",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day19",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day19",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day20",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day20",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day21",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day21",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day22",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day22",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day23",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day23",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day24",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day24",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day25",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day25",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day26",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day26",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day27",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day27",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day28",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day28",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day29",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day29",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day30",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day30",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2022/iThome_2021_Day31",
               "path": "/myblog/docs/ithome-ironman/iThome_2022/iThome_2021_Day31",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day01",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day01",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day02",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day02",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day03",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day03",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day04",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day04",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day05",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day05",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day06",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day06",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day07",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day07",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day08",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day08",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day09",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day09",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day10",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day10",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day11",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day11",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day12",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day12",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day13",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day13",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day14",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day14",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day15",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day15",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day16",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day16",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day17",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day17",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day18",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day18",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day19",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day19",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day20",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day20",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day21",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day21",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day22",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day22",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day23",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day23",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day24",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day24",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day25",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day25",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day26",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day26",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day27",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day27",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day28",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day28",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day29",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day29",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day30",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day30",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "ithome-ironman/iThome_2023/iThome_2021_Day31",
               "path": "/myblog/docs/ithome-ironman/iThome_2023/iThome_2021_Day31",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "linux/linux_tips",
               "path": "/myblog/docs/linux/linux_tips",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
               "path": "/myblog/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
               "path": "/myblog/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
               "path": "/myblog/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
               "path": "/myblog/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
               "path": "/myblog/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
               "path": "/myblog/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
               "path": "/myblog/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
               "path": "/myblog/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/ithome-鐵人賽",
               "path": "/myblog/docs/category/ithome-鐵人賽",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/2021-ithome鐵人賽",
               "path": "/myblog/docs/category/2021-ithome鐵人賽",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/2022-ithome鐵人賽",
               "path": "/myblog/docs/category/2022-ithome鐵人賽",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/2023-ithome鐵人賽",
               "path": "/myblog/docs/category/2023-ithome鐵人賽",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/linux-筆記",
               "path": "/myblog/docs/category/linux-筆記",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/docusaurus-筆記",
               "path": "/myblog/docs/category/docusaurus-筆記",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/tutorial---basics",
               "path": "/myblog/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "/category/tutorial---extras",
               "path": "/myblog/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "defaultSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "defaultSidebar": {
               "link": {
                 "path": "/myblog/docs/intro",
                 "label": "intro"

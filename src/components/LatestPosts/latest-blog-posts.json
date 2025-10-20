@@ -1,5 +1,11 @@
 [
   {
+    "title": "自動產生 docusaurus blog 文件模板",
+    "permalink": "/myblog/blog/auto-docusaurus-blog-generator",
+    "date": "2025-10-19T10:00:00.000Z",
+    "formattedDate": "2025/10/19"
+  },
+  {
     "title": "2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)",
     "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
     "date": "2025-10-12T10:00:00.000Z",
@@ -46,29 +52,5 @@
     "permalink": "/myblog/blog/Setting-up-a-React-Native-development-environment",
     "date": "2025-06-06T10:00:00.000Z",
     "formattedDate": "2025/06/06"
-  },
-  {
-    "title": "Welcome",
-    "permalink": "/myblog/blog/welcome",
-    "date": "2021-08-26T00:00:00.000Z",
-    "formattedDate": "2021/08/26"
-  },
-  {
-    "title": "MDX Blog Post",
-    "permalink": "/myblog/blog/mdx-blog-post",
-    "date": "2021-08-01T00:00:00.000Z",
-    "formattedDate": "2021/08/01"
-  },
-  {
-    "title": "Long Blog Post",
-    "permalink": "/myblog/blog/long-blog-post",
-    "date": "2019-05-29T00:00:00.000Z",
-    "formattedDate": "2019/05/29"
-  },
-  {
-    "title": "First Blog Post",
-    "permalink": "/myblog/blog/first-blog-post",
-    "date": "2019-05-28T00:00:00.000Z",
-    "formattedDate": "2019/05/28"
   }
 ]

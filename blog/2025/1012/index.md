@@ -1,7 +1,7 @@
 ---
 slug: 2025-Ubuntu-Server-Upgrade
 title: 2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)
-authors: [slorber, yangshun]
+authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-10-12T10:00
 ---

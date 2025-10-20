@@ -8,14 +8,13 @@
   "permalink": "/myblog/docs/linux/linux_tips",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/linux/linux_tips.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
     "title": "Linux 筆記",
     "permalink": "/myblog/docs/category/linux-筆記"
