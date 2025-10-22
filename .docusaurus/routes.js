@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/myblog/blog',
-    component: ComponentCreator('/myblog/blog', '9e5'),
+    component: ComponentCreator('/myblog/blog', '4ea'),
     exact: true
   },
   {
@@ -79,12 +79,12 @@ export default [
   },
   {
     path: '/myblog/blog/authors/smilehsu',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu', 'e0c'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu', '0aa'),
     exact: true
   },
   {
     path: '/myblog/blog/authors/smilehsu/authors/2',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '110'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '4e5'),
     exact: true
   },
   {
@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/myblog/blog/page/2',
-    component: ComponentCreator('/myblog/blog/page/2', 'b47'),
+    component: ComponentCreator('/myblog/blog/page/2', '352'),
     exact: true
   },
   {
@@ -179,7 +179,7 @@ export default [
   },
   {
     path: '/myblog/blog/tags/docusaurus',
-    component: ComponentCreator('/myblog/blog/tags/docusaurus', '694'),
+    component: ComponentCreator('/myblog/blog/tags/docusaurus', 'e02'),
     exact: true
   },
   {
@@ -194,12 +194,12 @@ export default [
   },
   {
     path: '/myblog/blog/tags/facebook',
-    component: ComponentCreator('/myblog/blog/tags/facebook', '34e'),
+    component: ComponentCreator('/myblog/blog/tags/facebook', 'dd3'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/gemini',
-    component: ComponentCreator('/myblog/blog/tags/gemini', '9b6'),
+    component: ComponentCreator('/myblog/blog/tags/gemini', '497'),
     exact: true
   },
   {
@@ -209,7 +209,7 @@ export default [
   },
   {
     path: '/myblog/blog/tags/hello',
-    component: ComponentCreator('/myblog/blog/tags/hello', 'aa9'),
+    component: ComponentCreator('/myblog/blog/tags/hello', '8fe'),
     exact: true
   },
   {
@@ -243,8 +243,13 @@ export default [
     exact: true
   },
   {
+    path: '/myblog/blog/tags/tailwindcss',
+    component: ComponentCreator('/myblog/blog/tags/tailwindcss', '6af'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/tags/theme',
-    component: ComponentCreator('/myblog/blog/tags/theme', '33f'),
+    component: ComponentCreator('/myblog/blog/tags/theme', '6c7'),
     exact: true
   },
   {
@@ -254,12 +259,17 @@ export default [
   },
   {
     path: '/myblog/blog/tags/vibe-coding',
-    component: ComponentCreator('/myblog/blog/tags/vibe-coding', 'd39'),
+    component: ComponentCreator('/myblog/blog/tags/vibe-coding', '847'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/word-press',
-    component: ComponentCreator('/myblog/blog/tags/word-press', '49a'),
+    component: ComponentCreator('/myblog/blog/tags/word-press', 'b61'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tailwindcss-in-wordpress',
+    component: ComponentCreator('/myblog/blog/tailwindcss-in-wordpress', '30a'),
     exact: true
   },
   {
