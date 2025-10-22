@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/myblog/blog',
-    component: ComponentCreator('/myblog/blog', '1cb'),
+    component: ComponentCreator('/myblog/blog', '9e5'),
     exact: true
   },
   {
@@ -79,12 +79,12 @@ export default [
   },
   {
     path: '/myblog/blog/authors/smilehsu',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu', 'a14'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu', 'e0c'),
     exact: true
   },
   {
     path: '/myblog/blog/authors/smilehsu/authors/2',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '0b5'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '110'),
     exact: true
   },
   {
@@ -118,8 +118,13 @@ export default [
     exact: true
   },
   {
+    path: '/myblog/blog/minimal-blank-wp-theme',
+    component: ComponentCreator('/myblog/blog/minimal-blank-wp-theme', 'c50'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/page/2',
-    component: ComponentCreator('/myblog/blog/page/2', '07f'),
+    component: ComponentCreator('/myblog/blog/page/2', 'b47'),
     exact: true
   },
   {
@@ -193,6 +198,11 @@ export default [
     exact: true
   },
   {
+    path: '/myblog/blog/tags/gemini',
+    component: ComponentCreator('/myblog/blog/tags/gemini', '9b6'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/tags/gui',
     component: ComponentCreator('/myblog/blog/tags/gui', '2bb'),
     exact: true
@@ -233,13 +243,23 @@ export default [
     exact: true
   },
   {
+    path: '/myblog/blog/tags/theme',
+    component: ComponentCreator('/myblog/blog/tags/theme', '33f'),
+    exact: true
+  },
+  {
     path: '/myblog/blog/tags/tkinter',
     component: ComponentCreator('/myblog/blog/tags/tkinter', 'f69'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/vibe-coding',
-    component: ComponentCreator('/myblog/blog/tags/vibe-coding', '47d'),
+    component: ComponentCreator('/myblog/blog/tags/vibe-coding', 'd39'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/word-press',
+    component: ComponentCreator('/myblog/blog/tags/word-press', '49a'),
     exact: true
   },
   {

@@ -1,6 +1,6 @@
 ---
 slug: Setting-up-a-React-Native-development-environment
-title: 建立React Native 開發環境
+title: 建立 React Native 開發環境
 authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-06-06T10:00

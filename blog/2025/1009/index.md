@@ -1,6 +1,6 @@
 ---
 slug: Manual-Update-WordPress
-title: 在主機端直接下指令更新WordPress
+title: 在主機端直接下指令更新 WordPress
 authors: [smilehsu]
 tags: [facebook, hello, docusaurus]
 date: 2025-10-09T10:00

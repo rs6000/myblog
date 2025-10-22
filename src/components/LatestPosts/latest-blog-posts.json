@@ -1,30 +1,36 @@
 [
   {
+    "title": "建立 WP 空白的佈景主題",
+    "permalink": "/myblog/blog/minimal-blank-wp-theme",
+    "date": "2025-10-21T10:00:00.000Z",
+    "formattedDate": "2025/10/21"
+  },
+  {
     "title": "自動產生 docusaurus blog 文件模板",
     "permalink": "/myblog/blog/auto-docusaurus-blog-generator",
     "date": "2025-10-19T10:00:00.000Z",
     "formattedDate": "2025/10/19"
   },
   {
-    "title": "2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)",
+    "title": "2025 Ubuntu 主機升級紀錄(PHP8.3+SSL+Wordpress)",
     "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
     "date": "2025-10-12T10:00:00.000Z",
     "formattedDate": "2025/10/12"
   },
   {
-    "title": "把程式推送到Bitbucket",
+    "title": "把程式推送到 Bitbucket",
     "permalink": "/myblog/blog/Using-Bitbucket",
     "date": "2025-10-10T10:00:00.000Z",
     "formattedDate": "2025/10/10"
   },
   {
-    "title": "使用Nginx新增一個子網域(Subdomain)",
+    "title": "使用 Nginx 新增一個子網域(Subdomain)",
     "permalink": "/myblog/blog/Add-a-new-subdomain-using-Nginx",
     "date": "2025-10-10T10:00:00.000Z",
     "formattedDate": "2025/10/10"
   },
   {
-    "title": "在主機端直接下指令更新WordPress",
+    "title": "在主機端直接下指令更新 WordPress",
     "permalink": "/myblog/blog/Manual-Update-WordPress",
     "date": "2025-10-09T10:00:00.000Z",
     "formattedDate": "2025/10/09"
@@ -42,15 +48,57 @@
     "formattedDate": "2025/06/18"
   },
   {
-    "title": "2025 Ubuntu主機運營紀錄(長期更新) 5566",
+    "title": "2025 Ubuntu 主機運營紀錄(長期更新)",
     "permalink": "/myblog/blog/2025-Ubuntu-Server-Ops",
     "date": "2025-06-16T10:00:00.000Z",
     "formattedDate": "2025/06/16"
   },
   {
-    "title": "建立React Native 開發環境",
+    "title": "建立 React Native 開發環境",
     "permalink": "/myblog/blog/Setting-up-a-React-Native-development-environment",
     "date": "2025-06-06T10:00:00.000Z",
     "formattedDate": "2025/06/06"
+  },
+  {
+    "title": "Python 第一支GUI程式",
+    "permalink": "/myblog/blog/first-python-gui-program",
+    "date": "2024-09-30T10:00:00.000Z",
+    "formattedDate": "2024/09/30"
+  },
+  {
+    "title": "使用JS建立RESTful API",
+    "permalink": "/myblog/blog/RESTful-API-with-JS",
+    "date": "2024-09-29T10:00:00.000Z",
+    "formattedDate": "2024/09/29"
+  },
+  {
+    "title": "Python Tkinter GUI程式實例 股價損益計算機",
+    "permalink": "/myblog/blog/Python-Tkinter-GUI-example-stock-profit-calculator",
+    "date": "2024-09-28T10:00:00.000Z",
+    "formattedDate": "2024/09/28"
+  },
+  {
+    "title": "看YT學React Native – 使用相機模組(Camera)",
+    "permalink": "/myblog/blog/React-Native-Camera-Module",
+    "date": "2024-09-27T10:00:00.000Z",
+    "formattedDate": "2024/09/27"
+  },
+  {
+    "title": "看YT學React Native – 使用條碼模組(Barcode)",
+    "permalink": "/myblog/blog/React-Native-Barcode-Module",
+    "date": "2024-09-26T10:00:00.000Z",
+    "formattedDate": "2024/09/26"
+  },
+  {
+    "title": "React Native 國際書碼ISBN 掃描",
+    "permalink": "/myblog/blog/React-Native-Book-ISBN-Scanner",
+    "date": "2024-09-25T10:00:00.000Z",
+    "formattedDate": "2024/09/25"
+  },
+  {
+    "title": "323213",
+    "permalink": "/myblog/blog/12223",
+    "date": "2024-09-24T10:00:00.000Z",
+    "formattedDate": "2024/09/24"
   }
 ]

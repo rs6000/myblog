@@ -2,34 +2,34 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "建立 WP 空白的佈景主題",
+      "permalink": "/myblog/blog/minimal-blank-wp-theme",
+      "unlisted": false,
+      "date": "2025-10-21T10:00:00.000Z"
+    },
+    {
       "title": "自動產生 docusaurus blog 文件模板",
       "permalink": "/myblog/blog/auto-docusaurus-blog-generator",
       "unlisted": false,
       "date": "2025-10-19T10:00:00.000Z"
     },
     {
-      "title": "2025 Ubuntu主機升級紀錄(PHP8.3+SSL+Wordpress)",
+      "title": "2025 Ubuntu 主機升級紀錄(PHP8.3+SSL+Wordpress)",
       "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
       "unlisted": false,
       "date": "2025-10-12T10:00:00.000Z"
     },
     {
-      "title": "把程式推送到Bitbucket",
+      "title": "把程式推送到 Bitbucket",
       "permalink": "/myblog/blog/Using-Bitbucket",
       "unlisted": false,
       "date": "2025-10-10T10:00:00.000Z"
     },
     {
-      "title": "使用Nginx新增一個子網域(Subdomain)",
+      "title": "使用 Nginx 新增一個子網域(Subdomain)",
       "permalink": "/myblog/blog/Add-a-new-subdomain-using-Nginx",
       "unlisted": false,
       "date": "2025-10-10T10:00:00.000Z"
-    },
-    {
-      "title": "在主機端直接下指令更新WordPress",
-      "permalink": "/myblog/blog/Manual-Update-WordPress",
-      "unlisted": false,
-      "date": "2025-10-09T10:00:00.000Z"
     }
   ]
 }

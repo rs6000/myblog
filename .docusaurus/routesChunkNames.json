@@ -42,13 +42,16 @@
       "plugin": "plugin---myblog-docusaurus-debugb-38-773"
     }
   },
-  "/myblog/blog-1cb": {
+  "/myblog/blog-9e5": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
+      {
+        "content": "content---myblog-blogbfc-d98"
+      },
       {
         "content": "content---myblog-blog-97-e-b22"
       },
@@ -75,9 +78,6 @@
       },
       {
         "content": "content---myblog-blogc-38-ffa"
-      },
-      {
-        "content": "content---myblog-blog-8-a-9-57d"
       }
     ],
     "__props": "__props---myblog-bloge-8-d-880"
@@ -156,7 +156,7 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-all-sebastien-lorber-articles-967-13d"
   },
-  "/myblog/blog/authors/smilehsu-a14": {
+  "/myblog/blog/authors/smilehsu-e0c": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -165,6 +165,9 @@
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
+      {
+        "content": "content---myblog-blogbfc-d98"
+      },
       {
         "content": "content---myblog-blog-97-e-b22"
       },
@@ -191,15 +194,12 @@
       },
       {
         "content": "content---myblog-blogc-38-ffa"
-      },
-      {
-        "content": "content---myblog-blog-8-a-9-57d"
       }
     ],
     "sidebar": "sidebar---myblog-blog-814-70b",
     "__props": "__props---myblog-blog-authors-smilehsuf-90-c62"
   },
-  "/myblog/blog/authors/smilehsu/authors/2-0b5": {
+  "/myblog/blog/authors/smilehsu/authors/2-110": {
     "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
@@ -208,6 +208,9 @@
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-28-a-9-e6f"
+      },
       {
         "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       },
@@ -297,13 +300,27 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "content": "content---myblog-blog-manual-update-word-press-9-e-8-e9d"
   },
-  "/myblog/blog/page/2-07f": {
+  "/myblog/blog/minimal-blank-wp-theme-c50": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---myblog-blog-12223-ace-0fa"
+      },
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "content": "content---myblog-blog-minimal-blank-wp-theme-3-e-3-0a8"
+  },
+  "/myblog/blog/page/2-b47": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
     },
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
+      {
+        "content": "content---myblog-blog-authors-smilehsu-authors-28-a-9-e6f"
+      },
       {
         "content": "content---myblog-blog-authors-smilehsu-authors-2145-ecb"
       },
@@ -559,6 +576,19 @@
     ],
     "__props": "__props---myblog-blog-tags-facebook-048-601"
   },
+  "/myblog/blog/tags/gemini-9b6": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blogbfc-d98"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-geminia-3-a-a23"
+  },
   "/myblog/blog/tags/gui-2bb": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -567,7 +597,7 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-8-a-9-57d"
+        "content": "content---myblog-blog-authors-smilehsu-authors-28-a-9-e6f"
       }
     ],
     "__props": "__props---myblog-blog-tags-gui-3-fc-3ad"
@@ -643,7 +673,7 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-8-a-9-57d"
+        "content": "content---myblog-blog-authors-smilehsu-authors-28-a-9-e6f"
       }
     ],
     "__props": "__props---myblog-blog-tags-pythone-14-495"
@@ -696,6 +726,19 @@
     ],
     "__props": "__props---myblog-blog-tags-scanner-5-a-6-5d8"
   },
+  "/myblog/blog/tags/theme-33f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blogbfc-d98"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-theme-499-bcc"
+  },
   "/myblog/blog/tags/tkinter-f69": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
@@ -704,12 +747,12 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
-        "content": "content---myblog-blog-8-a-9-57d"
+        "content": "content---myblog-blog-authors-smilehsu-authors-28-a-9-e6f"
       }
     ],
     "__props": "__props---myblog-blog-tags-tkinter-404-75b"
   },
-  "/myblog/blog/tags/vibe-coding-47d": {
+  "/myblog/blog/tags/vibe-coding-d39": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---myblog-blog-369-1bb"
@@ -717,10 +760,26 @@
     "sidebar": "sidebar---myblog-blog-814-70b",
     "items": [
       {
+        "content": "content---myblog-blogbfc-d98"
+      },
+      {
         "content": "content---myblog-blog-97-e-b22"
       }
     ],
     "__props": "__props---myblog-blog-tags-vibe-codingb-8-a-4ba"
+  },
+  "/myblog/blog/tags/word-press-49a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---myblog-blog-369-1bb"
+    },
+    "sidebar": "sidebar---myblog-blog-814-70b",
+    "items": [
+      {
+        "content": "content---myblog-blogbfc-d98"
+      }
+    ],
+    "__props": "__props---myblog-blog-tags-word-press-1-ab-216"
   },
   "/myblog/blog/Using-Bitbucket-f33": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
