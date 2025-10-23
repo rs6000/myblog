@@ -4,10 +4,53 @@
         <title>My Site Blog</title>
         <link>https://rs6000.github.io/myblog/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Wed, 22 Oct 2025 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2025 10:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Vite + Tailwind in WordPress Theme]]></title>
+            <link>https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme</link>
+            <guid>https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme</guid>
+            <pubDate>Thu, 23 Oct 2025 10:00:00 GMT</pubDate>
+            <description><![CDATA[✨前言]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">✨前言<a href="https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to ✨前言" title="Direct link to ✨前言" translate="no">​</a></h3>
+<p>上一篇把TailwindCSS導入佈景主題後，接著我想是看看能不能在佈景主題也用Vite+React<br>
+<!-- -->因為之前在Udemy買過 WordPress Headless CMS的課程，當初課程內容就是前後端分離<br>
+<!-- -->把WP當後端用，用API撈資料給前端(React)</p>
+<p>問了Gemini ，鬼打牆一兩個小時後放棄，在github 找幾個年份相近的範例<br>
+<!-- -->到本機上都是error，最後問了ChatGPT 直接打包一個佈景主題檔讓我下載<br>
+<!-- -->丟到本機端，馬上可以使用，真不愧是我大哥ChatGPT<br>
+<!-- -->所以這篇我就不寫實作過程了，附上原始碼，下載就能用</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-原始碼下載">💻 原始碼下載<a href="https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme#-%E5%8E%9F%E5%A7%8B%E7%A2%BC%E4%B8%8B%E8%BC%89" class="hash-link" aria-label="Direct link to 💻 原始碼下載" title="Direct link to 💻 原始碼下載" translate="no">​</a></h3>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/rs6000/react-vite-tailwind-wp-theme.git</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-專案結構">📁 專案結構<a href="https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme#-%E5%B0%88%E6%A1%88%E7%B5%90%E6%A7%8B" class="hash-link" aria-label="Direct link to 📁 專案結構" title="Direct link to 📁 專案結構" translate="no">​</a></h3>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">react-vite-tailwind-wp-theme/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── functions.php</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── index.php</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── style.css</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── vite.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── tailwind.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── postcss.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── package.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">├── src/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── main.jsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── App.jsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   ├── components/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   │   ├── Hero.jsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   │   └── CardGrid.jsx</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│   └── style.css</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└── README.md</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-安裝步驟">🚀 安裝步驟<a href="https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme#-%E5%AE%89%E8%A3%9D%E6%AD%A5%E9%A9%9F" class="hash-link" aria-label="Direct link to 🚀 安裝步驟" title="Direct link to 🚀 安裝步驟" translate="no">​</a></h3>
+<ol>
+<li>
+<p>將整個主題資料夾放入：<br>
+<code>wp-content/themes/react-vite-tailwind-wp-theme</code></p>
+</li>
+<li>
+<p>在主題目錄中執行：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p>啟用主題後，即可看到 React Hero 區塊與 3×3 卡片。</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-網站截圖">🖼 網站截圖<a href="https://rs6000.github.io/myblog/blog/vite-tailwind-wp-theme#-%E7%B6%B2%E7%AB%99%E6%88%AA%E5%9C%96" class="hash-link" aria-label="Direct link to 🖼 網站截圖" title="Direct link to 🖼 網站截圖" translate="no">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="demo" src="https://rs6000.github.io/myblog/assets/images/vite-tailwindcss-wp-3ae4c6f88e90c97c82166217073a8669.png" width="1218" height="1656" class="img_ev3q"></p>
+<hr>]]></content:encoded>
+            <category>ChatGPT</category>
+            <category>Vibe Coding</category>
+            <category>WordPress</category>
+            <category>theme</category>
+            <category>tailwindcss</category>
+            <category>Vite</category>
+            <category>React</category>
+        </item>
         <item>
             <title><![CDATA[WP 佈景主題引入 TailwindCSS]]></title>
             <link>https://rs6000.github.io/myblog/blog/tailwindcss-in-wordpress</link>
