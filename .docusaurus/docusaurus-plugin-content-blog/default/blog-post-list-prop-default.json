@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Vite + Tailwind in WordPress Theme",
+      "permalink": "/myblog/blog/vite-tailwind-wp-theme",
+      "unlisted": false,
+      "date": "2025-10-23T10:00:00.000Z"
+    },
+    {
       "title": "WP 佈景主題引入 TailwindCSS",
       "permalink": "/myblog/blog/tailwindcss-in-wordpress",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/myblog/blog/2025-Ubuntu-Server-Upgrade",
       "unlisted": false,
       "date": "2025-10-12T10:00:00.000Z"
-    },
-    {
-      "title": "使用 Nginx 新增一個子網域(Subdomain)",
-      "permalink": "/myblog/blog/Add-a-new-subdomain-using-Nginx",
-      "unlisted": false,
-      "date": "2025-10-10T10:00:00.000Z"
     }
   ]
 }

@@ -20,6 +20,9 @@ Thumbs.db
 # Vercel / 部署相關
 .vercel/
 .vercelignore
+deploy.txt
+deploy.bat
+play.bat
 
 # 打包產生的檔案
 dist/

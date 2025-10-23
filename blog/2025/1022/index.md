@@ -21,7 +21,8 @@ date: 2025-10-22T10:00
 
 ### 1. 建立主題資料夾
 
-在您的 WordPress 安裝目錄中，進入 `wp-content/themes/`，然後建立一個新的資料夾，例如命名為 `my-tailwind-theme`。
+在您的 WordPress 安裝目錄中，進入 `wp-content/themes/`，然後建立一個新的資料夾  
+例如命名為 `my-tailwind-theme`。
 
 ### 2. 建立 `style.css` (佈景主題標頭)
 
@@ -176,4 +177,5 @@ module.exports = {
 ### 🖼️成果展示
 ![demo](wp-tailwindcss.png)
 
-太棒了！您已經成功地設定了現代化的 Tailwind CSS v4.x 開發環境，這是最困難的部分。現在我們可以專注於開發您的 WordPress 佈景主題結構了。
+太棒了！您已經成功地設定了現代化的 Tailwind CSS v4.x 開發環境，這是最困難的部分。  
+現在我們可以專注於開發您的 WordPress 佈景主題結構了。

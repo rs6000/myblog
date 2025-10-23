@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/myblog/blog',
-    component: ComponentCreator('/myblog/blog', '4ea'),
+    component: ComponentCreator('/myblog/blog', '031'),
     exact: true
   },
   {
@@ -79,12 +79,12 @@ export default [
   },
   {
     path: '/myblog/blog/authors/smilehsu',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu', '0aa'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu', '839'),
     exact: true
   },
   {
     path: '/myblog/blog/authors/smilehsu/authors/2',
-    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '4e5'),
+    component: ComponentCreator('/myblog/blog/authors/smilehsu/authors/2', '989'),
     exact: true
   },
   {
@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/myblog/blog/page/2',
-    component: ComponentCreator('/myblog/blog/page/2', '352'),
+    component: ComponentCreator('/myblog/blog/page/2', 'dab'),
     exact: true
   },
   {
@@ -174,12 +174,12 @@ export default [
   },
   {
     path: '/myblog/blog/tags/chat-gpt',
-    component: ComponentCreator('/myblog/blog/tags/chat-gpt', '811'),
+    component: ComponentCreator('/myblog/blog/tags/chat-gpt', 'f51'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/docusaurus',
-    component: ComponentCreator('/myblog/blog/tags/docusaurus', 'e02'),
+    component: ComponentCreator('/myblog/blog/tags/docusaurus', '694'),
     exact: true
   },
   {
@@ -194,7 +194,7 @@ export default [
   },
   {
     path: '/myblog/blog/tags/facebook',
-    component: ComponentCreator('/myblog/blog/tags/facebook', 'dd3'),
+    component: ComponentCreator('/myblog/blog/tags/facebook', '34e'),
     exact: true
   },
   {
@@ -209,7 +209,7 @@ export default [
   },
   {
     path: '/myblog/blog/tags/hello',
-    component: ComponentCreator('/myblog/blog/tags/hello', '8fe'),
+    component: ComponentCreator('/myblog/blog/tags/hello', 'aa9'),
     exact: true
   },
   {
@@ -225,6 +225,11 @@ export default [
   {
     path: '/myblog/blog/tags/python',
     component: ComponentCreator('/myblog/blog/tags/python', '68a'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/react',
+    component: ComponentCreator('/myblog/blog/tags/react', '96d'),
     exact: true
   },
   {
@@ -244,12 +249,12 @@ export default [
   },
   {
     path: '/myblog/blog/tags/tailwindcss',
-    component: ComponentCreator('/myblog/blog/tags/tailwindcss', '6af'),
+    component: ComponentCreator('/myblog/blog/tags/tailwindcss', '915'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/theme',
-    component: ComponentCreator('/myblog/blog/tags/theme', '6c7'),
+    component: ComponentCreator('/myblog/blog/tags/theme', '2a8'),
     exact: true
   },
   {
@@ -259,12 +264,17 @@ export default [
   },
   {
     path: '/myblog/blog/tags/vibe-coding',
-    component: ComponentCreator('/myblog/blog/tags/vibe-coding', '847'),
+    component: ComponentCreator('/myblog/blog/tags/vibe-coding', '273'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/tags/vite',
+    component: ComponentCreator('/myblog/blog/tags/vite', 'de9'),
     exact: true
   },
   {
     path: '/myblog/blog/tags/word-press',
-    component: ComponentCreator('/myblog/blog/tags/word-press', 'b61'),
+    component: ComponentCreator('/myblog/blog/tags/word-press', '179'),
     exact: true
   },
   {
@@ -275,6 +285,11 @@ export default [
   {
     path: '/myblog/blog/Using-Bitbucket',
     component: ComponentCreator('/myblog/blog/Using-Bitbucket', 'f33'),
+    exact: true
+  },
+  {
+    path: '/myblog/blog/vite-tailwind-wp-theme',
+    component: ComponentCreator('/myblog/blog/vite-tailwind-wp-theme', 'a27'),
     exact: true
   },
   {

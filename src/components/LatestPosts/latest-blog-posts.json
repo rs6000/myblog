@@ -1,5 +1,11 @@
 [
   {
+    "title": "WP 佈景主題引入 TailwindCSS",
+    "permalink": "/myblog/blog/tailwindcss-in-wordpress",
+    "date": "2025-10-22T10:00:00.000Z",
+    "formattedDate": "2025/10/22"
+  },
+  {
     "title": "建立 WP 空白的佈景主題",
     "permalink": "/myblog/blog/minimal-blank-wp-theme",
     "date": "2025-10-21T10:00:00.000Z",
