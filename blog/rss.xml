@@ -4,10 +4,65 @@
         <title>My Site Blog</title>
         <link>https://rs6000.github.io/myblog/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sat, 08 Nov 2025 10:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 10:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[docusaurus部屬的小問題]]></title>
+            <link>https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix</link>
+            <guid>https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix</guid>
+            <pubDate>Thu, 11 Dec 2025 10:00:00 GMT</pubDate>
+            <description><![CDATA[前言:]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
+<h1>解決 Docusaurus 部署錯誤：GIT_USER / USE_SSH</h1>
+<p>我問: Error: Please set the GIT_USER environment variable, or explicitly specify USE_SSH instead!</p>
+<p>以下是ChatGPT的回答</p>
+<p>這個錯誤通常出現在 <strong>Docusaurus 部署到 GitHub Pages</strong> 時，因為需要
+<code>GIT_USER</code> 或設定 <code>USE_SSH</code> 來做 git push。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-1-用-https-token推薦">✅ 1. 用 HTTPS Token（推薦）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-1-%E7%94%A8-https-token%E6%8E%A8%E8%96%A6" class="hash-link" aria-label="Direct link to ✅ 1. 用 HTTPS Token（推薦）" title="Direct link to ✅ 1. 用 HTTPS Token（推薦）" translate="no">​</a></h2>
+<p>在 CMD / PowerShell 輸入：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set GIT_USER=&lt;你的 GitHub 使用者名稱&gt;</span><br></span></code></pre></div></div>
+<p>例：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set GIT_USER=smilehsu</span><br></span></code></pre></div></div>
+<p>然後執行：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span></code></pre></div></div>
+<blockquote>
+<p><strong>注意</strong>：如果 GitHub 問密碼，要輸入 Personal Access
+Token（PAT），不是 GitHub 密碼。</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-2-用-ssh不用-git_user">✅ 2. 用 SSH（不用 GIT_USER）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-2-%E7%94%A8-ssh%E4%B8%8D%E7%94%A8-git_user" class="hash-link" aria-label="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" title="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" translate="no">​</a></h2>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set USE_SSH=true</span><br></span></code></pre></div></div>
+<p>然後：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span></code></pre></div></div>
+<p>但你的 Git repo remote 也要是 SSH：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git remote set-url origin git@github.com:smilehsu/你的repo.git</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-永久設定避免每次開機都要輸入">✅ 3. 永久設定（避免每次開機都要輸入）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-3-%E6%B0%B8%E4%B9%85%E8%A8%AD%E5%AE%9A%E9%81%BF%E5%85%8D%E6%AF%8F%E6%AC%A1%E9%96%8B%E6%A9%9F%E9%83%BD%E8%A6%81%E8%BC%B8%E5%85%A5" class="hash-link" aria-label="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" title="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" translate="no">​</a></h2>
+<p>Windows PowerShell：</p>
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[System.Environment]::SetEnvironmentVariable("GIT_USER", "smilehsu", "User")</span><br></span></code></pre></div></div>
+<p>或 SSH：</p>
+<div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[System.Environment]::SetEnvironmentVariable("USE_SSH", "true", "User")</span><br></span></code></pre></div></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-常見原因">🔍 常見原因<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%B8%B8%E8%A6%8B%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 🔍 常見原因" title="Direct link to 🔍 常見原因" translate="no">​</a></h2>
+<p>問題                             原因</p>
+<hr>
+<p><code>GIT_USER</code> 沒設                  Docusaurus 需要你的 GitHub username 推上 gh-pages
+使用 HTTPS 但沒提供 <code>GIT_USER</code>   必須設 <code>GIT_USER</code>
+使用 SSH 但沒設 <code>USE_SSH</code>        需加上環境變數</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-如果你需要協助">🔧 如果你需要協助<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E5%8D%94%E5%8A%A9" class="hash-link" aria-label="Direct link to 🔧 如果你需要協助" title="Direct link to 🔧 如果你需要協助" translate="no">​</a></h2>
+<p>我可以幫你：<br>
+<!-- -->✔ 檢查 deployment 設定<br>
+<!-- -->✔ 看你的 <code>docusaurus.config.js</code><br>
+<!-- -->✔ 設定 deploy scripts</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference:<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#reference" class="hash-link" aria-label="Direct link to Reference:" title="Direct link to Reference:" translate="no">​</a></h3>]]></content:encoded>
+            <category>Facebook</category>
+            <category>Hello</category>
+            <category>Docusaurus</category>
+        </item>
         <item>
             <title><![CDATA[安裝 n8n 測試中123]]></title>
             <link>https://rs6000.github.io/myblog/blog/n8n</link>
@@ -714,34 +769,6 @@ expo: 44.0.4 ※手機需要安裝 EXPO Go (Android / iOS)
 <li><a href="https://docs.expo.dev/versions/latest/sdk/media-library/%0A" target="_blank" rel="noopener noreferrer">expo-media-library</a></li>
 <li><a href="https://stackoverflow.com/questions/68668152/react-native-expo-permission-deprecated-what-to-use-now" target="_blank" rel="noopener noreferrer">React Native expo-permission deprecated what to use now?</a></li>
 <li><a href="https://icons.expo.fyi/" target="_blank" rel="noopener noreferrer">@expo/vector-icons@12.0.5</a></li>
-</ul>]]></content:encoded>
-            <category>React Native</category>
-            <category>EXPO</category>
-            <category>Camera</category>
-        </item>
-        <item>
-            <title><![CDATA[看YT學React Native – 使用條碼模組(Barcode)]]></title>
-            <link>https://rs6000.github.io/myblog/blog/React-Native-Barcode-Module</link>
-            <guid>https://rs6000.github.io/myblog/blog/React-Native-Barcode-Module</guid>
-            <pubDate>Thu, 26 Sep 2024 10:00:00 GMT</pubDate>
-            <description><![CDATA[- 發布日期: 2022年1月19日]]></description>
-            <content:encoded><![CDATA[<ul>
-<li>發布日期: 2022年1月19日</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/React-Native-Barcode-Module#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
-<p>這是一個在Expo專案內使用Barcode 模組的範例 我學React Native的目標就是做一個進銷存的APP 條碼掃描的功能是必須的，今天這個範例讓我離目標更進一步 :)</p>
-<p>目前開發環境:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">node.js: v14.17.6</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm: 6.14.15</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">react: 17.0.1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">react-native: 0.64.3</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">expo: 44.0.4 ※手機需要安裝 EXPO Go (Android / iOS)</span><br></span></code></pre></div></div>
-<p><img decoding="async" loading="lazy" alt="demo" src="https://rs6000.github.io/myblog/assets/images/Screenshot_2022.01.19-63bee4dcf4bdd946e39e91d63adc87d7.png" width="540" height="960" class="img_ev3q"></p>
-<p>心得總結:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">使用 expo-barcode-scanner 套件</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">程式碼的內容相當精簡與簡單...出乎意料之外 XDD</span><br></span></code></pre></div></div>
-<p>範例 source code:</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://smilehsu@bitbucket.org/smilehsu/yt_example_barcode0119.git</span><br></span></code></pre></div></div>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference:<a href="https://rs6000.github.io/myblog/blog/React-Native-Barcode-Module#reference" class="hash-link" aria-label="Direct link to Reference:" title="Direct link to Reference:" translate="no">​</a></h3>
-<ul>
-<li>QR &amp; Barcode Scanner App Tutorial in React Native (YT連結已失效)</li>
-<li><a href="https://docs.expo.dev/versions/latest/sdk/bar-code-scanner/" target="_blank" rel="noopener noreferrer">Expo-BarCodeScanner</a></li>
 </ul>]]></content:encoded>
             <category>React Native</category>
             <category>EXPO</category>
