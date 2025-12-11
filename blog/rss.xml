@@ -47,11 +47,7 @@ Token（PAT），不是 GitHub 密碼。</p>
 <div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[System.Environment]::SetEnvironmentVariable("USE_SSH", "true", "User")</span><br></span></code></pre></div></div>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-常見原因">🔍 常見原因<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%B8%B8%E8%A6%8B%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 🔍 常見原因" title="Direct link to 🔍 常見原因" translate="no">​</a></h2>
-<p>問題                             原因</p>
-<hr>
-<p><code>GIT_USER</code> 沒設                  Docusaurus 需要你的 GitHub username 推上 gh-pages
-使用 HTTPS 但沒提供 <code>GIT_USER</code>   必須設 <code>GIT_USER</code>
-使用 SSH 但沒設 <code>USE_SSH</code>        需加上環境變數</p>
+<table><thead><tr><th>問題</th><th>原因</th></tr></thead><tbody><tr><td><code>GIT_USER</code> 沒設</td><td>Docusaurus 需要你的 GitHub username 推上 gh-pages</td></tr><tr><td>使用 HTTPS 但沒提供 <code>GIT_USER</code></td><td>必須設 <code>GIT_USER</code></td></tr><tr><td>使用 SSH 但沒設 <code>USE_SSH</code></td><td>需加上環境變數</td></tr></tbody></table>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-如果你需要協助">🔧 如果你需要協助<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E5%8D%94%E5%8A%A9" class="hash-link" aria-label="Direct link to 🔧 如果你需要協助" title="Direct link to 🔧 如果你需要協助" translate="no">​</a></h2>
 <p>我可以幫你：<br>
