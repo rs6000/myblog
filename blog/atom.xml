@@ -9,18 +9,22 @@
     <icon>https://rs6000.github.io/myblog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[docusaurus部屬的小問題]]></title>
-        <id>https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix</id>
-        <link href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix"/>
+        <id>https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy</id>
+        <link href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy"/>
         <updated>2025-12-11T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[前言:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
-<h1>解決 Docusaurus 部署錯誤：GIT_USER / USE_SSH</h1>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
+<p>目前我使用 Docusaurus 來寫Blog已經過三個月，只有剛開始的時候很認真用<br>
+<!-- -->後來少用就開始忘東忘西，我目前的網站是放置在Github Pages上面<br>
+<!-- -->設定檔都正確，網站資料上傳更新也OK，但常常要上傳資料時碰到 SSH issue的問題<br>
+<!-- -->所以請ChatGPT 幫我處理這個問題</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="解決-docusaurus-部署錯誤git_user--use_ssh">解決 Docusaurus 部署錯誤：GIT_USER / USE_SSH<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#%E8%A7%A3%E6%B1%BA-docusaurus-%E9%83%A8%E7%BD%B2%E9%8C%AF%E8%AA%A4git_user--use_ssh" class="hash-link" aria-label="Direct link to 解決 Docusaurus 部署錯誤：GIT_USER / USE_SSH" title="Direct link to 解決 Docusaurus 部署錯誤：GIT_USER / USE_SSH" translate="no">​</a></h3>
 <p>我問: Error: Please set the GIT_USER environment variable, or explicitly specify USE_SSH instead!</p>
 <p>以下是ChatGPT的回答</p>
 <p>這個錯誤通常出現在 <strong>Docusaurus 部署到 GitHub Pages</strong> 時，因為需要
 <code>GIT_USER</code> 或設定 <code>USE_SSH</code> 來做 git push。</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-1-用-https-token推薦">✅ 1. 用 HTTPS Token（推薦）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-1-%E7%94%A8-https-token%E6%8E%A8%E8%96%A6" class="hash-link" aria-label="Direct link to ✅ 1. 用 HTTPS Token（推薦）" title="Direct link to ✅ 1. 用 HTTPS Token（推薦）" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-1-用-https-token推薦">✅ 1. 用 HTTPS Token（推薦）<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-1-%E7%94%A8-https-token%E6%8E%A8%E8%96%A6" class="hash-link" aria-label="Direct link to ✅ 1. 用 HTTPS Token（推薦）" title="Direct link to ✅ 1. 用 HTTPS Token（推薦）" translate="no">​</a></h3>
 <p>在 CMD / PowerShell 輸入：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set GIT_USER=&lt;你的 GitHub 使用者名稱&gt;</span><br></span></code></pre></div></div>
 <p>例：</p>
@@ -32,28 +36,53 @@
 Token（PAT），不是 GitHub 密碼。</p>
 </blockquote>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-2-用-ssh不用-git_user">✅ 2. 用 SSH（不用 GIT_USER）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-2-%E7%94%A8-ssh%E4%B8%8D%E7%94%A8-git_user" class="hash-link" aria-label="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" title="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-2-用-ssh不用-git_user">✅ 2. 用 SSH（不用 GIT_USER）<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-2-%E7%94%A8-ssh%E4%B8%8D%E7%94%A8-git_user" class="hash-link" aria-label="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" title="Direct link to ✅ 2. 用 SSH（不用 GIT_USER）" translate="no">​</a></h3>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">set USE_SSH=true</span><br></span></code></pre></div></div>
 <p>然後：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span></code></pre></div></div>
 <p>但你的 Git repo remote 也要是 SSH：</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git remote set-url origin git@github.com:smilehsu/你的repo.git</span><br></span></code></pre></div></div>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-3-永久設定避免每次開機都要輸入">✅ 3. 永久設定（避免每次開機都要輸入）<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-3-%E6%B0%B8%E4%B9%85%E8%A8%AD%E5%AE%9A%E9%81%BF%E5%85%8D%E6%AF%8F%E6%AC%A1%E9%96%8B%E6%A9%9F%E9%83%BD%E8%A6%81%E8%BC%B8%E5%85%A5" class="hash-link" aria-label="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" title="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" translate="no">​</a></h2>
-<p>Windows PowerShell：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-3-永久設定避免每次開機都要輸入">✅ 3. 永久設定（避免每次開機都要輸入）<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-3-%E6%B0%B8%E4%B9%85%E8%A8%AD%E5%AE%9A%E9%81%BF%E5%85%8D%E6%AF%8F%E6%AC%A1%E9%96%8B%E6%A9%9F%E9%83%BD%E8%A6%81%E8%BC%B8%E5%85%A5" class="hash-link" aria-label="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" title="Direct link to ✅ 3. 永久設定（避免每次開機都要輸入）" translate="no">​</a></h3>
+<p>在 CMD 中使用(我使用這個方案)：</p>
+<div class="language-cmd codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-cmd codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">setx GIT_USER "smilehsu"</span><br></span></code></pre></div></div>
+<p>或若你要用 SSH：</p>
+<div class="language-cmd codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-cmd codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">setx USE_SSH "true"</span><br></span></code></pre></div></div>
 <div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[System.Environment]::SetEnvironmentVariable("GIT_USER", "smilehsu", "User")</span><br></span></code></pre></div></div>
 <p>或 SSH：</p>
 <div class="language-powershell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-powershell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[System.Environment]::SetEnvironmentVariable("USE_SSH", "true", "User")</span><br></span></code></pre></div></div>
+<blockquote>
+<p>⚠ 注意：</p>
+<ul>
+<li>
+<p><code>setx</code> 設定後需要 <strong>重新開啟 CMD 或重新登入</strong> 才會生效</p>
+</li>
+<li>
+<p>舊視窗不會自動更新環境變數</p>
+</li>
+<li>
+<p><code>setx</code> 會寫入 Windows 使用者環境變數（User variables）</p>
+</li>
+</ul>
+</blockquote>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-常見原因">🔍 常見原因<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%B8%B8%E8%A6%8B%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 🔍 常見原因" title="Direct link to 🔍 常見原因" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-常見原因">🔍 常見原因<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-%E5%B8%B8%E8%A6%8B%E5%8E%9F%E5%9B%A0" class="hash-link" aria-label="Direct link to 🔍 常見原因" title="Direct link to 🔍 常見原因" translate="no">​</a></h3>
 <table><thead><tr><th>問題</th><th>原因</th></tr></thead><tbody><tr><td><code>GIT_USER</code> 沒設</td><td>Docusaurus 需要你的 GitHub username 推上 gh-pages</td></tr><tr><td>使用 HTTPS 但沒提供 <code>GIT_USER</code></td><td>必須設 <code>GIT_USER</code></td></tr><tr><td>使用 SSH 但沒設 <code>USE_SSH</code></td><td>需加上環境變數</td></tr></tbody></table>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-如果你需要協助">🔧 如果你需要協助<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#-%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E5%8D%94%E5%8A%A9" class="hash-link" aria-label="Direct link to 🔧 如果你需要協助" title="Direct link to 🔧 如果你需要協助" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-如果你需要協助">🔧 如果你需要協助<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-%E5%A6%82%E6%9E%9C%E4%BD%A0%E9%9C%80%E8%A6%81%E5%8D%94%E5%8A%A9" class="hash-link" aria-label="Direct link to 🔧 如果你需要協助" title="Direct link to 🔧 如果你需要協助" translate="no">​</a></h3>
 <p>我可以幫你：<br>
 <!-- -->✔ 檢查 deployment 設定<br>
 <!-- -->✔ 看你的 <code>docusaurus.config.js</code><br>
 <!-- -->✔ 設定 deploy scripts</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference:<a href="https://rs6000.github.io/myblog/blog/docusaurus-deploy-fix#reference" class="hash-link" aria-label="Direct link to Reference:" title="Direct link to Reference:" translate="no">​</a></h3>]]></content>
+<p><strong>以上是ChatGPT的回覆</strong></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-我實作的流程">🎯 我實作的流程<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-%E6%88%91%E5%AF%A6%E4%BD%9C%E7%9A%84%E6%B5%81%E7%A8%8B" class="hash-link" aria-label="Direct link to 🎯 我實作的流程" title="Direct link to 🎯 我實作的流程" translate="no">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">setx USE_SSH "true"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 上面指令只執行一次，執行完畢關掉CMD視窗，重新開一個CMD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#以後網站內容存檔後，只要執行下面的指令</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span></code></pre></div></div>
+<p>之後更新網站內容，不會再跳出錯誤訊息，網站也能順利更新。</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-製作資訊">🧡 製作資訊<a href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy#-%E8%A3%BD%E4%BD%9C%E8%B3%87%E8%A8%8A" class="hash-link" aria-label="Direct link to 🧡 製作資訊" title="Direct link to 🧡 製作資訊" translate="no">​</a></h3>
+<p>📦 <strong>Made with ❤️ by ChatGPT</strong><br>
+<!-- -->📜 <strong>MIT License © 2025</strong></p>]]></content>
         <author>
             <name>Smile Hsu</name>
             <uri>https://smilehsu.cc</uri>
