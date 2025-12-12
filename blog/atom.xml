@@ -8,7 +8,7 @@
     <subtitle>My Site Blog</subtitle>
     <icon>https://rs6000.github.io/myblog/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[docusaurus部屬的小問題]]></title>
+        <title type="html"><![CDATA[docusaurus 部署的小問題]]></title>
         <id>https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy</id>
         <link href="https://rs6000.github.io/myblog/blog/docusaurus-qna-deploy"/>
         <updated>2025-12-11T10:00:00.000Z</updated>
@@ -473,27 +473,6 @@ Token（PAT），不是 GitHub 密碼。</p>
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[把程式推送到 Bitbucket]]></title>
-        <id>https://rs6000.github.io/myblog/blog/Using-Bitbucket</id>
-        <link href="https://rs6000.github.io/myblog/blog/Using-Bitbucket"/>
-        <updated>2025-10-10T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[前言:]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="發布日期-2022-年-1-月-19-日下午-1221">發布日期: 2022 年 1 月 19 日下午 12:21<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E7%99%BC%E5%B8%83%E6%97%A5%E6%9C%9F-2022-%E5%B9%B4-1-%E6%9C%88-19-%E6%97%A5%E4%B8%8B%E5%8D%88-1221" class="hash-link" aria-label="Direct link to 發布日期: 2022 年 1 月 19 日下午 12:21" title="Direct link to 發布日期: 2022 年 1 月 19 日下午 12:21" translate="no">​</a></h4>
-<p>目前我把bitbucket 當作練習範例的程式碼倉庫，練習用的範例都會放這 一般的side project 會放在github，網頁上內嵌的程式碼會用 gits 本來內嵌程式碼也是要用 bitbucket 但是我找不到可以內嵌的選項...</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="流程">流程:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E6%B5%81%E7%A8%8B" class="hash-link" aria-label="Direct link to 流程:" title="Direct link to 流程:" translate="no">​</a></h3>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">到 bitbucket 建立新的 repository</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 本地的專案資料夾下</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git init</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 網址要改成自己的...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git remote add orgin https://anyone@bitbucket.org/anyone/myproject.git</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "say somethig here"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 第一次推送要加 -f 強制用本地端檔案覆蓋遠端檔案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push orgin master -f</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">之後如果要新增</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 本地的專案資料夾下</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "say somethig here"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push origin master</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#reference" class="hash-link" aria-label="Direct link to Reference:" title="Direct link to Reference:" translate="no">​</a></h3>]]></content>
-        <author>
-            <name>Smile Hsu</name>
-            <uri>https://smilehsu.cc</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[使用 Nginx 新增一個子網域(Subdomain)]]></title>
         <id>https://rs6000.github.io/myblog/blog/Add-a-new-subdomain-using-Nginx</id>
         <link href="https://rs6000.github.io/myblog/blog/Add-a-new-subdomain-using-Nginx"/>
@@ -521,6 +500,27 @@ Token（PAT），不是 GitHub 密碼。</p>
 <li><a href="https://bit.ly/3QCkyNE" target="_blank" rel="noopener noreferrer">How to install WordPress in a subdomain on Cloud Servers with Nginx</a></li>
 <li>How to Install WordPress on a Subdomain with Nginx</li>
 </ol>]]></content>
+        <author>
+            <name>Smile Hsu</name>
+            <uri>https://smilehsu.cc</uri>
+        </author>
+        <category label="Facebook" term="Facebook"/>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[把程式推送到 Bitbucket]]></title>
+        <id>https://rs6000.github.io/myblog/blog/Using-Bitbucket</id>
+        <link href="https://rs6000.github.io/myblog/blog/Using-Bitbucket"/>
+        <updated>2025-10-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[前言:]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="發布日期-2022-年-1-月-19-日下午-1221">發布日期: 2022 年 1 月 19 日下午 12:21<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E7%99%BC%E5%B8%83%E6%97%A5%E6%9C%9F-2022-%E5%B9%B4-1-%E6%9C%88-19-%E6%97%A5%E4%B8%8B%E5%8D%88-1221" class="hash-link" aria-label="Direct link to 發布日期: 2022 年 1 月 19 日下午 12:21" title="Direct link to 發布日期: 2022 年 1 月 19 日下午 12:21" translate="no">​</a></h4>
+<p>目前我把bitbucket 當作練習範例的程式碼倉庫，練習用的範例都會放這 一般的side project 會放在github，網頁上內嵌的程式碼會用 gits 本來內嵌程式碼也是要用 bitbucket 但是我找不到可以內嵌的選項...</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="流程">流程:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#%E6%B5%81%E7%A8%8B" class="hash-link" aria-label="Direct link to 流程:" title="Direct link to 流程:" translate="no">​</a></h3>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">到 bitbucket 建立新的 repository</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 本地的專案資料夾下</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git init</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 網址要改成自己的...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git remote add orgin https://anyone@bitbucket.org/anyone/myproject.git</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "say somethig here"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 第一次推送要加 -f 強制用本地端檔案覆蓋遠端檔案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push orgin master -f</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">之後如果要新增</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 本地的專案資料夾下</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "say somethig here"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push origin master</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference:<a href="https://rs6000.github.io/myblog/blog/Using-Bitbucket#reference" class="hash-link" aria-label="Direct link to Reference:" title="Direct link to Reference:" translate="no">​</a></h3>]]></content>
         <author>
             <name>Smile Hsu</name>
             <uri>https://smilehsu.cc</uri>
