@@ -9,18 +9,322 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Docusaurus 的sitemap 提交 google]]></title>
+            <title><![CDATA[Docusaurus 的sitemap 提交 google 測試]]></title>
             <link>https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc</link>
             <guid>https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc</guid>
             <pubDate>Sat, 13 Dec 2025 11:00:00 GMT</pubDate>
             <description><![CDATA[前言:]]></description>
             <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E5%89%8D%E8%A8%80" class="hash-link" aria-label="Direct link to 前言:" title="Direct link to 前言:" translate="no">​</a></h3>
-<p>dfdsf
-ssafads
-asfadsf</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-reference">🔗 Reference<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#-reference" class="hash-link" aria-label="Direct link to 🔗 Reference" title="Direct link to 🔗 Reference" translate="no">​</a></h3>
-<p>safdf</p>
+<h1>Docusaurus 網站 Google 搜尋檢查</h1>
+<p><strong>Exported:</strong> 12/13/2025 7:23:27<br>
+<strong>Link:</strong> <a href="https://gemini.google.com/app/86699a0f04710ac5" target="_blank" rel="noopener noreferrer">https://gemini.google.com/app/86699a0f04710ac5</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>我使用 Docusaurus 架設我的blog</p>
+<p>deploy 在 github pages 上面</p>
+<p>我要如何查詢我的網站是否能出現在 google 搜尋 之中</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p>您好！要查詢您的 Docusaurus blog 網站（部署在 GitHub Pages 上）是否已成功出現在 Google 搜尋結果中，主要有幾種方法，其中最推薦使用的是 <strong>Google Search Console</strong>。</p>
 <hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-使用-google-search-console-推薦方法">1. 使用 Google Search Console (推薦方法)<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#1-%E4%BD%BF%E7%94%A8-google-search-console-%E6%8E%A8%E8%96%A6%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Direct link to 1. 使用 Google Search Console (推薦方法)" title="Direct link to 1. 使用 Google Search Console (推薦方法)" translate="no">​</a></h2>
+<p>Google Search Console (GSC) 是 Google 官方提供的免費工具，用於幫助網站管理員監控網站的搜尋表現。</p>
+<ol>
+<li><strong>驗證網站所有權</strong>：<!-- -->
+<ul>
+<li>首先，您需要註冊並將您的網站新增到 Google Search Console。</li>
+<li>GSC 會要求您驗證網站所有權。由於您的網站是部署在 GitHub Pages 上的，通常建議使用 <strong>HTML 標記</strong> 或 <strong>DNS 紀錄</strong> 的方式進行驗證。</li>
+</ul>
+</li>
+<li><strong>使用「網址檢查」工具</strong>
+<ul>
+<li>登入 GSC 後，在頂部的搜尋框中輸入您網站的 <strong>完整網址</strong> (例如：<code>https://username.github.io/blog-repo/</code>)。</li>
+<li>GSC 會顯示該網址的索引狀態。<!-- -->
+<ul>
+<li>如果顯示 <strong>「已建立索引」</strong>：表示 Google 已經檢索並收錄了您的網頁，它<strong>可以</strong>出現在 Google 搜尋結果中。</li>
+<li>如果顯示 <strong>「網址不在 Google 服務中」</strong> 或其他錯誤：表示該網頁尚未被收錄。您可以查看詳細說明，瞭解未收錄的原因，並在修正問題後，點擊 <strong>「要求建立索引」</strong>，主動請 Google 再次檢查。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>查看「網頁索引」報表</strong>
+<ul>
+<li>在 GSC 側邊欄中，點擊 <strong>「產生索引」</strong> &gt; <strong>「網頁」</strong>。</li>
+<li>此報表會顯示您網站上所有網頁的索引狀態概述，例如有多少頁面已建立索引、有多少頁面未建立索引，以及未建立索引的原因。</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-使用-google-搜尋指令-快速檢查">2. 使用 Google 搜尋指令 (快速檢查)<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#2-%E4%BD%BF%E7%94%A8-google-%E6%90%9C%E5%B0%8B%E6%8C%87%E4%BB%A4-%E5%BF%AB%E9%80%9F%E6%AA%A2%E6%9F%A5" class="hash-link" aria-label="Direct link to 2. 使用 Google 搜尋指令 (快速檢查)" title="Direct link to 2. 使用 Google 搜尋指令 (快速檢查)" translate="no">​</a></h2>
+<p>這是一個最快、最簡單的檢查方法：</p>
+<ol>
+<li>開啟 Google 搜尋頁面。</li>
+<li>在搜尋框中輸入 <strong><code>site:</code></strong> 指令，後面接著您的網站域名，例如：<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">site:username.github.io</span><br></span></code></pre></div></div>
+<!-- -->或者針對您的特定部落格路徑：<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">site:username.github.io/blog-repo/</span><br></span></code></pre></div></div>
+</li>
+<li>按下 Enter 搜尋。<!-- -->
+<ul>
+<li>如果搜尋結果中顯示了您網站的頁面，則表示這些頁面<strong>已被 Google 索引</strong>（收錄）。</li>
+<li>如果沒有顯示任何結果，則表示您的網站或該部分網頁<strong>尚未被 Google 索引</strong>。</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-直接搜尋網站標題或內容">3. 直接搜尋網站標題或內容<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#3-%E7%9B%B4%E6%8E%A5%E6%90%9C%E5%B0%8B%E7%B6%B2%E7%AB%99%E6%A8%99%E9%A1%8C%E6%88%96%E5%85%A7%E5%AE%B9" class="hash-link" aria-label="Direct link to 3. 直接搜尋網站標題或內容" title="Direct link to 3. 直接搜尋網站標題或內容" translate="no">​</a></h2>
+<p>您可以直接在 Google 搜尋框中輸入您網站的<strong>完整標題</strong>或某篇文章的<strong>特定、獨特的內容文字</strong>。</p>
+<ul>
+<li>如果能搜尋到您的網站或文章，表示它已被索引。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="docusaurus-與-seo-提示">Docusaurus 與 SEO 提示<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#docusaurus-%E8%88%87-seo-%E6%8F%90%E7%A4%BA" class="hash-link" aria-label="Direct link to Docusaurus 與 SEO 提示" title="Direct link to Docusaurus 與 SEO 提示" translate="no">​</a></h2>
+<p>Docusaurus 本身對 SEO (搜尋引擎優化) 有很好的支援：</p>
+<ul>
+<li><strong>Sitemap (網站地圖)</strong>：Docusaurus 會自動生成 <code>sitemap.xml</code>，這對於 Google 爬蟲發現您網站上的所有頁面非常重要。建議將此 sitemap 提交到 <strong>Google Search Console</strong>。</li>
+<li><strong>元數據 (Metadata)</strong>：您可以在 Docusaurus 的配置檔案中設定全域元數據，例如關鍵字和描述，以優化搜尋結果顯示。</li>
+</ul>
+<hr>
+<p>要瞭解如何使用 <code>site:</code> 運算元來確認您的網站是否顯示在 Google 搜尋中，您可以觀看這部 YouTube 影片：</p>
+<p><a href="https://www.youtube.com/watch?v=kXefqbqEz_s" target="_blank" rel="noopener noreferrer">我的網站是否顯示在Google 搜尋中？ | Google 搜尋新手教學第5 集</a></p>
+<p>這段影片是 Google Search Central 官方提供的教學，專門說明如何使用 <code>site:</code> 指令來檢查網站是否已被 Google 索引。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt-1">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt-1" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>如何 在 Docusaurus 插入 &nbsp;Google Analytics 4</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response-1">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response-1" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p>Docusaurus 官方推薦使用 <strong><code>@docusaurus/plugin-google-gtag</code></strong> 這個插件來整合 Google Analytics 4 (GA4)。</p>
+<p>由於 Google 已淘汰了舊版的 Universal Analytics (UA)，Docusaurus 也建議所有用戶改用這個支援 GA4 評估 ID 的新插件。</p>
+<p>這是將 GA4 追蹤碼插入 Docusaurus 網站的最標準和最簡單的方法。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-整合-google-analytics-4-ga4-的步驟">🚀 整合 Google Analytics 4 (GA4) 的步驟<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#-%E6%95%B4%E5%90%88-google-analytics-4-ga4-%E7%9A%84%E6%AD%A5%E9%A9%9F" class="hash-link" aria-label="Direct link to 🚀 整合 Google Analytics 4 (GA4) 的步驟" title="Direct link to 🚀 整合 Google Analytics 4 (GA4) 的步驟" translate="no">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-1-取得您的-ga4-評估-id">步驟 1: 取得您的 GA4 評估 ID<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-1-%E5%8F%96%E5%BE%97%E6%82%A8%E7%9A%84-ga4-%E8%A9%95%E4%BC%B0-id" class="hash-link" aria-label="Direct link to 步驟 1: 取得您的 GA4 評估 ID" title="Direct link to 步驟 1: 取得您的 GA4 評估 ID" translate="no">​</a></h3>
+<p>您需要先在 Google Analytics (分析) 介面中取得您的 GA4 評估 ID。</p>
+<ol>
+<li>登入您的 <strong>Google Analytics (分析)</strong> 帳戶。</li>
+<li>進入您要使用的 <strong>GA4 資源</strong> (Property)。</li>
+<li>點選左下角的 <strong>管理</strong> (Admin) &gt; 在資源欄中選擇 <strong>資料串流</strong> (Data Streams)。</li>
+<li>點擊您的 <strong>網站</strong> 串流。</li>
+<li>在串流詳情頁面中，您會看到您的 <strong>評估 ID</strong> (Measurement ID)，格式通常為 <code>G-XXXXXXXXXX</code>。</li>
+</ol>
+<blockquote>
+<p>ℹ️ <strong>小提示</strong>：請複製這個 <code>G-</code> 開頭的 ID，後續步驟會用到。</p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-2-配置-docusaurus-插件">步驟 2: 配置 Docusaurus 插件<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-2-%E9%85%8D%E7%BD%AE-docusaurus-%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="Direct link to 步驟 2: 配置 Docusaurus 插件" title="Direct link to 步驟 2: 配置 Docusaurus 插件" translate="no">​</a></h3>
+<p>您只需要在 Docusaurus 網站根目錄下的設定檔 <code>docusaurus.config.js</code> 中進行配置。</p>
+<p>如果您使用經典預設集 (<code>@docusaurus/preset-classic</code>)，您不需要額外安裝套件，可以直接在 <code>presets</code> 選項中設定。</p>
+<ol>
+<li>開啟您的 <strong><code>docusaurus.config.js</code></strong> 檔案。</li>
+<li>找到 <code>presets</code> 或 <code>plugins</code> 區塊，並加入 <code>@docusaurus/plugin-google-gtag</code> 插件的設定。<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">module.exports = {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  presets: [</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    [</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      '@docusaurus/preset-classic',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      /** @type {import('@docusaurus/preset-classic').Options} */</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      ({</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // ... 其他經典預設集選項</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        docs: {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          // ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        blog: {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          // ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // 在這裡加入 gtag 選項</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        gtag: {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          trackingID: '您的 GA4 評估 ID (G-XXXXXXXXXX)', // &lt;-- 將 G-XXXXXXXXXX 替換為您的 ID</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">          anonymizeIP: true, // 建議開啟，用於匿名化 IP 位址以保護用戶隱私 (可選)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // 由於 GA4 的關係，請確保 analytics 選項是關閉的或未設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        // analytics: false,</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      }),</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ],</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  ],</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span></code></pre></div></div>
+</li>
+<li>將 <code>trackingID: '您的 GA4 評估 ID (G-XXXXXXXXXX)'</code> 中的 ID 替換為您在步驟 1 取得的 <code>G-XXXXXXXXXX</code> 評估 ID。</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-3-重建並部署網站">步驟 3: 重建並部署網站<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-3-%E9%87%8D%E5%BB%BA%E4%B8%A6%E9%83%A8%E7%BD%B2%E7%B6%B2%E7%AB%99" class="hash-link" aria-label="Direct link to 步驟 3: 重建並部署網站" title="Direct link to 步驟 3: 重建並部署網站" translate="no">​</a></h3>
+<ol>
+<li>儲存 <code>docusaurus.config.js</code> 檔案。</li>
+<li>在您的專案根目錄中執行建置指令：<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run build</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 或</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">yarn build</span><br></span></code></pre></div></div>
+</li>
+<li>將您的 Docusaurus 網站重新部署到 GitHub Pages (或其他託管平台)。</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-4-驗證安裝">步驟 4: 驗證安裝<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-4-%E9%A9%97%E8%AD%89%E5%AE%89%E8%A3%9D" class="hash-link" aria-label="Direct link to 步驟 4: 驗證安裝" title="Direct link to 步驟 4: 驗證安裝" translate="no">​</a></h3>
+<p>網站部署完成後：</p>
+<ol>
+<li>開啟您的網站。</li>
+<li>登入 <strong>Google Analytics (分析) 4</strong> 介面。</li>
+<li>進入 <strong>即時報表</strong> (Realtime report)。</li>
+<li>如果安裝成功，您將能在即時報表中看到自己（或任何其他訪問者）的活動，例如正在瀏覽的頁面和人數。</li>
+</ol>
+<p>這樣，您的 Docusaurus 網站就能開始追蹤 GA4 的數據了！</p>
+<hr>
+<p>您是否需要我進一步提供關於 <strong>Docusaurus 部署到 GitHub Pages</strong> 的步驟，或是想知道如何在 <strong>Google Search Console</strong> 中提交網站地圖 (sitemap)？</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt-2">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt-2" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>yes</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response-2">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response-2" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p>好的，我為您整理了以下兩個部分：</p>
+<ol>
+<li><strong>如何在 Google Search Console (GSC) 提交 Docusaurus 網站地圖 (Sitemap)</strong></li>
+<li><strong>Docusaurus 部署到 GitHub Pages 的關鍵步驟</strong></li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-如何在-google-search-console-提交網站地圖-sitemap">1. 如何在 Google Search Console 提交網站地圖 (Sitemap)<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#1-%E5%A6%82%E4%BD%95%E5%9C%A8-google-search-console-%E6%8F%90%E4%BA%A4%E7%B6%B2%E7%AB%99%E5%9C%B0%E5%9C%96-sitemap" class="hash-link" aria-label="Direct link to 1. 如何在 Google Search Console 提交網站地圖 (Sitemap)" title="Direct link to 1. 如何在 Google Search Console 提交網站地圖 (Sitemap)" translate="no">​</a></h2>
+<p>網站地圖 (<code>sitemap.xml</code>) 就像是您網站的索引目錄，它能幫助 Google 爬蟲更有效率地找到並索引您所有的網頁。Docusaurus 會在建置時自動產生這個檔案。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-a-找到您的-sitemap-網址">步驟 A: 找到您的 Sitemap 網址<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-a-%E6%89%BE%E5%88%B0%E6%82%A8%E7%9A%84-sitemap-%E7%B6%B2%E5%9D%80" class="hash-link" aria-label="Direct link to 步驟 A: 找到您的 Sitemap 網址" title="Direct link to 步驟 A: 找到您的 Sitemap 網址" translate="no">​</a></h3>
+<p>您的 Docusaurus 網站地圖通常位於網站的根目錄，網址格式如下：</p>
+<p><code>[您的 GitHub Pages 網址]/sitemap.xml</code></p>
+<p><strong>範例：</strong> 如果您的網站網址是 <code>https://username.github.io/blog-repo/</code>，那麼 Sitemap 網址就是： <code>https://username.github.io/blog-repo/sitemap.xml</code></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-b-登入-gsc-並提交">步驟 B: 登入 GSC 並提交<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-b-%E7%99%BB%E5%85%A5-gsc-%E4%B8%A6%E6%8F%90%E4%BA%A4" class="hash-link" aria-label="Direct link to 步驟 B: 登入 GSC 並提交" title="Direct link to 步驟 B: 登入 GSC 並提交" translate="no">​</a></h3>
+<ol>
+<li><strong>登入 Google Search Console (GSC)</strong>：<!-- -->
+<ul>
+<li>確保您已經新增並驗證了您的網站資源（如前述步驟）。</li>
+</ul>
+</li>
+<li><strong>進入「Sitemap」頁面</strong>：<!-- -->
+<ul>
+<li>在 GSC 左側選單中，點擊 <strong>「產生索引」</strong> 下的 <strong>「Sitemaps」</strong>。</li>
+</ul>
+</li>
+<li><strong>提交新的 Sitemap</strong>：<!-- -->
+<ul>
+<li>在 <strong>「新增 Sitemap」</strong> 區塊，您只需要輸入 Sitemap 相對於您網站根目錄的路徑。</li>
+<li><strong>情況一：您的網站網址是根網域</strong> (例如 <code>https://custom-domain.com/</code>)<!-- -->
+<ul>
+<li>在輸入框中填入：<code>sitemap.xml</code></li>
+</ul>
+</li>
+<li><strong>情況二：您的網站網址包含子路徑</strong> (例如 <code>https://username.github.io/blog-repo/</code>)<!-- -->
+<ul>
+<li>在輸入框中填入：<code>sitemap.xml</code></li>
+</ul>
+</li>
+<li><strong>注意：</strong> GSC 已經預先填入了您的網站根網址。您只需要輸入 <code>sitemap.xml</code>，然後點擊 <strong>「提交」</strong>。</li>
+</ul>
+</li>
+<li><strong>檢查狀態</strong>：<!-- -->
+<ul>
+<li>提交後，GSC 會顯示 Sitemap 的狀態。</li>
+<li>狀態會從「正在處理」變為「成功」。您可以在此處查看 Google 透過該 Sitemap 找到並建立索引的網頁數量。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-docusaurus-部署到-github-pages-的關鍵步驟">2. Docusaurus 部署到 GitHub Pages 的關鍵步驟<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#2-docusaurus-%E9%83%A8%E7%BD%B2%E5%88%B0-github-pages-%E7%9A%84%E9%97%9C%E9%8D%B5%E6%AD%A5%E9%A9%9F" class="hash-link" aria-label="Direct link to 2. Docusaurus 部署到 GitHub Pages 的關鍵步驟" title="Direct link to 2. Docusaurus 部署到 GitHub Pages 的關鍵步驟" translate="no">​</a></h2>
+<p>Docusaurus 已經內建了部署到 GitHub Pages 的腳本和配置，使過程相對簡單。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-a-配置-docusaurusconfigjs">步驟 A: 配置 <code>docusaurus.config.js</code><a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-a-%E9%85%8D%E7%BD%AE-docusaurusconfigjs" class="hash-link" aria-label="Direct link to 步驟-a-配置-docusaurusconfigjs" title="Direct link to 步驟-a-配置-docusaurusconfigjs" translate="no">​</a></h3>
+<p>您需要確保設定檔中的兩個關鍵參數正確配置：</p>
+<ol>
+<li><strong><code>baseUrl</code></strong>：這是網站的基礎路徑。對於 GitHub Pages，它通常是您的儲存庫名稱，並以斜線結尾。</li>
+<li><strong><code>url</code></strong>：這是您網站的完整網址 (用於 sitemap 和 SEO)。</li>
+</ol>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">const config = {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  title: '您的 Blog 名稱',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // **關鍵配置 1：網站基礎 URL**</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // 如果您的 GitHub Pages 網址是 https://&lt;USERNAME&gt;.github.io/&lt;REPO_NAME&gt;/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // 則這裡要填寫 /&lt;REPO_NAME&gt;/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  baseUrl: '/blog-repo-name/', </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // **關鍵配置 2：網站完整網址**</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  url: 'https://username.github.io', </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-b-配置部署腳本">步驟 B: 配置部署腳本<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-b-%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2%E8%85%B3%E6%9C%AC" class="hash-link" aria-label="Direct link to 步驟 B: 配置部署腳本" title="Direct link to 步驟 B: 配置部署腳本" translate="no">​</a></h3>
+<p>Docusaurus 官方建議您在 <code>package.json</code> 中配置部署設定：</p>
+<ol>
+<li><strong><code>package.json</code></strong>：新增或檢查 <code>scripts</code> 和 <code>deploy</code> 相關設定。<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// package.json</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"scripts": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他腳本</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  "deploy": "docusaurus deploy"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">},</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"browserslist": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">},</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// **關鍵配置 3：部署設定**</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"deployment": {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  "branch": "gh-pages", // 部署到哪個分支，通常是 gh-pages 或 main/master</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  "repository": "git@github.com:&lt;USERNAME&gt;/&lt;REPO_NAME&gt;.git" // 您的 GitHub 儲存庫</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div>
+<ul>
+<li><strong><code>&lt;USERNAME&gt;</code></strong>：替換為您的 GitHub 用戶名。</li>
+<li><strong><code>&lt;REPO_NAME&gt;</code></strong>：替換為您的部落格儲存庫名稱。</li>
+<li><strong><code>branch</code></strong>：請確保與您在 GitHub 儲存庫設定中選擇的 GitHub Pages 來源分支一致（預設可能是 <code>gh-pages</code> 或 <code>main</code>）。</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-c-執行部署指令">步驟 C: 執行部署指令<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-c-%E5%9F%B7%E8%A1%8C%E9%83%A8%E7%BD%B2%E6%8C%87%E4%BB%A4" class="hash-link" aria-label="Direct link to 步驟 C: 執行部署指令" title="Direct link to 步驟 C: 執行部署指令" translate="no">​</a></h3>
+<p>在您的終端機中執行部署腳本：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 或</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">yarn deploy</span><br></span></code></pre></div></div>
+<p>執行此指令後，Docusaurus 會：</p>
+<ol>
+<li>自動執行網站建置 (<code>docusaurus build</code>)。</li>
+<li>將建置好的靜態檔案 (位於 <code>build</code> 目錄) 推送到您設定的 GitHub 分支 (<code>gh-pages</code> 或 <code>main</code> 的 <code>/docs</code> 資料夾)。</li>
+<li>GitHub Pages 服務會自動讀取該分支的內容，並在您的網址上更新網站。</li>
+</ol>
+<p>部署完成後，請稍候幾分鐘，然後檢查您的 GitHub Pages 網址是否已更新。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt-3">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt-3" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>Sitemap 跟 插入 &nbsp;Google Analytics 4 是同一件事?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response-3">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response-3" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p>您好，<strong>Sitemap（網站地圖）和 Google Analytics 4 (GA4) 絕不是同一件事，它們的功能和目的完全不同！</strong></p>
+<p>它們都是提升網站表現的重要工具，但分別服務於不同的對象和用途。</p>
+<p>以下是它們的差異、用途和關係的整理：</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-sitemap-與-google-analytics-4-ga4-的主要差異">🔎 Sitemap 與 Google Analytics 4 (GA4) 的主要差異<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#-sitemap-%E8%88%87-google-analytics-4-ga4-%E7%9A%84%E4%B8%BB%E8%A6%81%E5%B7%AE%E7%95%B0" class="hash-link" aria-label="Direct link to 🔎 Sitemap 與 Google Analytics 4 (GA4) 的主要差異" title="Direct link to 🔎 Sitemap 與 Google Analytics 4 (GA4) 的主要差異" translate="no">​</a></h2>
+<table><thead><tr><th>項目</th><th>Sitemap (網站地圖)</th><th>Google Analytics 4 (GA4)</th></tr></thead><tbody><tr><td><strong>用途</strong></td><td><strong>幫助搜尋引擎 (Google)</strong> 發現和索引您的網頁。</td><td><strong>幫助網站擁有者</strong> 了解用戶如何使用您的網站。</td></tr><tr><td><strong>對象</strong></td><td><strong>搜尋引擎的爬蟲 (Bots)</strong>。</td><td><strong>網站的訪客 (User)</strong>。</td></tr><tr><td><strong>格式</strong></td><td>是一個 <strong>XML 檔案</strong> (<code>sitemap.xml</code>)，列出所有頁面網址。</td><td>是一段 <strong>JavaScript 追蹤碼</strong> (透過 <code>gtag.js</code>)。</td></tr><tr><td><strong>在 Docusaurus 中的實作</strong></td><td>自動生成，透過 <strong>Google Search Console</strong> 提交。</td><td>透過 <strong><code>@docusaurus/plugin-google-gtag</code></strong> 插件插入追蹤碼。</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-sitemap-網站地圖-的用途">1. Sitemap (網站地圖) 的用途<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#1-sitemap-%E7%B6%B2%E7%AB%99%E5%9C%B0%E5%9C%96-%E7%9A%84%E7%94%A8%E9%80%94" class="hash-link" aria-label="Direct link to 1. Sitemap (網站地圖) 的用途" title="Direct link to 1. Sitemap (網站地圖) 的用途" translate="no">​</a></h2>
+<p>Sitemap 的目的就是告訴 Google 和其他搜尋引擎：<strong>「這是我的網站上的所有重要頁面，請來收錄它們。」</strong></p>
+<ul>
+<li><strong>定義：</strong> 一個 XML 格式的檔案，包含了您網站上所有您希望被搜尋引擎收錄的網址列表。</li>
+<li><strong>關鍵作用：</strong>
+<ul>
+<li><strong>發現新內容：</strong> 確保 Google 能找到您所有的新文章和頁面。</li>
+<li><strong>優化爬取：</strong> 特別適用於新網站或連結較少的頁面，確保這些頁面不會被遺漏。</li>
+</ul>
+</li>
+<li><strong>工具：</strong> 主要透過 <strong>Google Search Console</strong> 提交給 Google。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-google-analytics-4-ga4-的用途">2. Google Analytics 4 (GA4) 的用途<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#2-google-analytics-4-ga4-%E7%9A%84%E7%94%A8%E9%80%94" class="hash-link" aria-label="Direct link to 2. Google Analytics 4 (GA4) 的用途" title="Direct link to 2. Google Analytics 4 (GA4) 的用途" translate="no">​</a></h2>
+<p>GA4 的目的是收集數據，幫助您分析用戶行為：<strong>「誰在使用我的網站？他們從哪裡來？他們在網站上做了什麼？」</strong></p>
+<ul>
+<li><strong>定義：</strong> 一套數據收集與分析服務，透過在網站中植入一段追蹤碼來運作。</li>
+<li><strong>關鍵作用：</strong>
+<ul>
+<li><strong>流量分析：</strong> 追蹤每日、每月有多少人訪問您的網站 (用戶數、工作階段數)。</li>
+<li><strong>用戶行為：</strong> 了解用戶停留了多久、點擊了哪些連結、看了哪些頁面。</li>
+<li><strong>轉換追蹤：</strong> 如果您有電子商務或其他目標，可以追蹤用戶是否完成了這些行為。</li>
+</ul>
+</li>
+<li><strong>工具：</strong> 您需要登入 <strong>Google Analytics (分析) 網站</strong> 來查看報告。</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-總結與它們的關係">💡 總結與它們的關係<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#-%E7%B8%BD%E7%B5%90%E8%88%87%E5%AE%83%E5%80%91%E7%9A%84%E9%97%9C%E4%BF%82" class="hash-link" aria-label="Direct link to 💡 總結與它們的關係" title="Direct link to 💡 總結與它們的關係" translate="no">​</a></h2>
+<p>這兩者是 <strong>SEO (搜尋引擎優化)</strong> 的兩個不同面向：</p>
+<ul>
+<li><strong>Sitemap 決定了「能否被找到」</strong>：它是搜尋引擎優化的「基礎建設」。</li>
+<li><strong>GA4 決定了「找到之後的表現」</strong>：它是搜尋引擎優化的「數據分析」。</li>
+</ul>
+<p><strong>它們的關係是：</strong></p>
+<p>您的網站必須先透過 <strong>Sitemap</strong> 被 Google 索引，才能出現在搜尋結果中。當用戶點擊 Google 搜尋結果並進入您的網站後，<strong>GA4</strong> 才會開始記錄這位用戶的行為數據。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt-4">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt-4" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>sitemap.xml 要 提交到 google ?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response-4">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response-4" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p><strong>是的，Sitemap.xml 檔案</strong> <strong>非常建議</strong> <strong>提交給 Google！</strong></p>
+<p>這是在 Google Search Console (GSC) 裡操作的重要步驟，它能確保您的 Docusaurus blog 中的所有頁面（包括新文章）都能被 Google 發現和收錄。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="為什麼要提交-sitemap">為什麼要提交 Sitemap？<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E6%8F%90%E4%BA%A4-sitemap" class="hash-link" aria-label="Direct link to 為什麼要提交 Sitemap？" title="Direct link to 為什麼要提交 Sitemap？" translate="no">​</a></h3>
+<ol>
+<li><strong>加速索引：</strong> 雖然 Google 爬蟲最終可能會自行找到您的頁面，但提交 Sitemap 是一種「主動告知」的方式，能極大地加快 Google 發現和索引您網站上所有網頁的速度。</li>
+<li><strong>確保涵蓋範圍：</strong> 對於新網站（如您的 Docusaurus blog）或具有許多頁面、層次較深的網站，提交 Sitemap 可以確保 Google 不會遺漏任何重要的頁面。</li>
+<li><strong>回報狀態：</strong> 提交後，Google Search Console 會為您提供報表，顯示 Google 嘗試索引了 Sitemap 中的多少頁面、哪些成功了、哪些失敗了，這對您進行 SEO 診斷非常有幫助。</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="提交方法快速複習">提交方法（快速複習）<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%8F%90%E4%BA%A4%E6%96%B9%E6%B3%95%E5%BF%AB%E9%80%9F%E8%A4%87%E7%BF%92" class="hash-link" aria-label="Direct link to 提交方法（快速複習）" title="Direct link to 提交方法（快速複習）" translate="no">​</a></h3>
+<p>如前所述，您只需要在 <strong>Google Search Console (GSC)</strong> 中操作：</p>
+<ol>
+<li><strong>登入 GSC</strong> 並選擇您的網站資源。</li>
+<li>點擊左側導覽列的 <strong>「Sitemaps」</strong>。</li>
+<li>在 <strong>「新增 Sitemap」</strong> 欄位中，輸入您的 Docusaurus 網站地圖路徑，通常是：<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sitemap.xml</span><br></span></code></pre></div></div>
+<!-- -->（Docusaurus 會自動在您的網站根目錄生成此檔案。）</li>
+<li>點擊 <strong>「提交」</strong> 即可。</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="prompt-5">Prompt:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#prompt-5" class="hash-link" aria-label="Direct link to Prompt:" title="Direct link to Prompt:" translate="no">​</a></h2>
+<p>使用 github pages 也能提交 sitemap?</p>
+<p>我沒有自己的網址，是使用 <a href="https://rs6000.github.io/myblog/" target="_blank" rel="noopener noreferrer">https://rs6000.github.io/myblog/</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="response-5">Response:<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#response-5" class="hash-link" aria-label="Direct link to Response:" title="Direct link to Response:" translate="no">​</a></h2>
+<p>您好，<strong>是的，您絕對可以使用 GitHub Pages 的網址來提交 Sitemap！</strong></p>
+<p>網站是否使用自訂網域（例如 <code>example.com</code>）並不影響您提交 Sitemap 的權利或能力。Google Search Console (GSC) 認可所有有效的、公開可訪問的網址，包括您使用的 <code>https://rs6000.github.io/myblog/</code> 這種子目錄形式的 GitHub Pages 網址。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="提交您的-github-pages-sitemap-步驟">提交您的 GitHub Pages Sitemap 步驟<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%8F%90%E4%BA%A4%E6%82%A8%E7%9A%84-github-pages-sitemap-%E6%AD%A5%E9%A9%9F" class="hash-link" aria-label="Direct link to 提交您的 GitHub Pages Sitemap 步驟" title="Direct link to 提交您的 GitHub Pages Sitemap 步驟" translate="no">​</a></h2>
+<p>既然您的網站網址是 <code>https://rs6000.github.io/myblog/</code>，我們來確認一下提交的細節：</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-1-確認-docusaurus-的配置">步驟 1: 確認 Docusaurus 的配置<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-1-%E7%A2%BA%E8%AA%8D-docusaurus-%E7%9A%84%E9%85%8D%E7%BD%AE" class="hash-link" aria-label="Direct link to 步驟 1: 確認 Docusaurus 的配置" title="Direct link to 步驟 1: 確認 Docusaurus 的配置" translate="no">​</a></h3>
+<p>請確認您的 Docusaurus 配置檔案 (<code>docusaurus.config.js</code>) 中的 <code>baseUrl</code> 設定是正確的：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">const config = {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // 由於您的網站位於子目錄 `/myblog/` 下，baseUrl 必須設定為該子目錄</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  baseUrl: '/myblog/', </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // 您的完整網址</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  url: 'https://rs6000.github.io', </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span></code></pre></div></div>
+<p>確保此配置後，Docusaurus 產生的 <code>sitemap.xml</code> 才能包含正確的網址路徑。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-2-驗證網站所有權">步驟 2: 驗證網站所有權<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-2-%E9%A9%97%E8%AD%89%E7%B6%B2%E7%AB%99%E6%89%80%E6%9C%89%E6%AC%8A" class="hash-link" aria-label="Direct link to 步驟 2: 驗證網站所有權" title="Direct link to 步驟 2: 驗證網站所有權" translate="no">​</a></h3>
+<p>在提交 Sitemap 之前，您必須先將這個特定的網址新增到 Google Search Console (GSC) 並驗證所有權。</p>
+<ol>
+<li><strong>進入 GSC</strong>，選擇「新增資源」。</li>
+<li>選擇「網址前置字元 (URL prefix)」。</li>
+<li>輸入您的完整網址：<code>https://rs6000.github.io/myblog/</code></li>
+<li>GSC 會要求您驗證所有權。由於您使用的是 GitHub Pages，<strong>HTML 標記</strong> 驗證方法是最簡單的：<!-- -->
+<ul>
+<li>GSC 會提供一個 <code>&lt;meta&gt;</code> 標籤。</li>
+<li>將此標籤複製到您 Docusaurus 網站的 <code>docusaurus.config.js</code> 中，透過 <code>headTags</code> 選項插入到 HTML 的 <code>&lt;head&gt;</code> 區塊。</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// docusaurus.config.js</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">module.exports = {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ... 其他設定</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  headTags: [</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      tagName: 'meta',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      attributes: {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        name: 'google-site-verification',</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        content: 'GSC 給您的驗證碼', // 將這裡替換為您的驗證碼</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    },</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  ],</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  // ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">};</span><br></span></code></pre></div></div>
+<ul>
+<li>重新部署您的 Docusaurus 網站 (<code>npm run deploy</code>)。</li>
+<li>回到 GSC 點擊「驗證」。</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="步驟-3-提交-sitemap">步驟 3: 提交 Sitemap<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#%E6%AD%A5%E9%A9%9F-3-%E6%8F%90%E4%BA%A4-sitemap" class="hash-link" aria-label="Direct link to 步驟 3: 提交 Sitemap" title="Direct link to 步驟 3: 提交 Sitemap" translate="no">​</a></h3>
+<p>一旦您的網站資源 (<code>https://rs6000.github.io/myblog/</code>) 成功驗證，您就可以提交 Sitemap：</p>
+<ol>
+<li>登入 GSC，確保您選擇了 <strong><code>https://rs6000.github.io/myblog/</code></strong> 這個資源。</li>
+<li>點擊左側導覽列的 <strong>「Sitemaps」</strong>。</li>
+<li>在 <strong>「新增 Sitemap」</strong> 欄位中，您會看到 GSC 已經顯示了資源的基礎路徑：<code>https://rs6000.github.io/myblog/</code></li>
+<li>您只需要在後面輸入：<!-- -->
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sitemap.xml</span><br></span></code></pre></div></div>
+<!-- -->最終提交的完整網址為：<code>https://rs6000.github.io/myblog/sitemap.xml</code></li>
+<li>點擊 <strong>「提交」</strong> 即可。</li>
+</ol>
+<hr>
+<p><strong>總結：</strong> 即使是 GitHub Pages 提供的網址，您一樣可以將其視為一個獨立的網站資源，並在 Google Search Console 中驗證所有權及提交 Sitemap。</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="powered-by-gemini-exporter">Powered by <a href="https://www.ai-chat-exporter.com/" target="_blank" rel="noopener noreferrer">Gemini Exporter</a><a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#powered-by-gemini-exporter" class="hash-link" aria-label="Direct link to powered-by-gemini-exporter" title="Direct link to powered-by-gemini-exporter" translate="no">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-製作資訊">🧡 製作資訊<a href="https://rs6000.github.io/myblog/blog/docusaurus-sitemap-gsc#-%E8%A3%BD%E4%BD%9C%E8%B3%87%E8%A8%8A" class="hash-link" aria-label="Direct link to 🧡 製作資訊" title="Direct link to 🧡 製作資訊" translate="no">​</a></h3>
 <p>📦 <strong>Made with ❤️ by Gemini</strong><br>
 <!-- -->📜 <strong>MIT License © 2025</strong></p>]]></content:encoded>
@@ -29,7 +333,7 @@ asfadsf</p>
             <category>Docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[🚀 Docusaurus v3.9 客製化首頁]]></title>
+            <title><![CDATA[Docusaurus v3.9 客製化首頁]]></title>
             <link>https://rs6000.github.io/myblog/blog/docusaurus-customized-homepage</link>
             <guid>https://rs6000.github.io/myblog/blog/docusaurus-customized-homepage</guid>
             <pubDate>Sat, 13 Dec 2025 10:00:00 GMT</pubDate>
